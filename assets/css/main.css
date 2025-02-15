@@ -52,8 +52,28 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  font-family: var(--nav-font) !important;
 }
+/* ===================================== HOME PAGE CSS START =========================================== */
+.carousel-item{
+  z-index: -50 !important; 
+  position: relative;
+background-size: cover;
+object-fit: cover;
+background-position: center;
+  height: 70vh !important; 
+}
+.carousel-item >div{
+
+  z-index: 22 !important;
+  position: absolute;
+
+}
+.col-org{
+  color: var(--accent-color) !important;
+}
+/* ===================================== HOME PAGE CSS END =========================================== */
+
 .top_2 {
 border-top: 0.1px solid #4444441e;
   backdrop-filter: blur(0.2px);
@@ -76,6 +96,9 @@ a:hover {
 .navbar-nav>.nav-item>.nav-link:hover{
   color: var(--accent-color) !important;
 }
+.navbar{
+  z-index: 200 !important;
+}
 .navbar-nav>.nav-item>.nav-link{
   padding: 10px 16px;
   font-size: 15px;
@@ -97,8 +120,8 @@ padding: 10px;
 border: none;
 box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 transition:  0.6s all  !important;
-transform: rotat eX(90deg) !important;
-
+transform: rotateX(90deg) !important;
+z-index: 1200 !important;
 }
 .dropdown:hover .dropdown-menu{
   height: auto !important;
@@ -429,7 +452,7 @@ padding: 10px 5px;
   position: relative;
 }
 
-.section-title h2 {
+.section-title  {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -441,7 +464,7 @@ padding: 10px 5px;
   position: relative;
 }
 
-.section-title h2::after {
+.section-title ::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -478,18 +501,30 @@ padding: 10px 5px;
 
 
 
-.hero h2 {
+.hero  {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
 }
 
-.hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin: 10px 0 0 0;
-  font-size: 24px;
+.btn1{
+  border: none;
+  position: relative;
 }
-
+.btn1:hover .btn1-span{
+  height: 100%;
+  color: white !important;
+}
+.btn1-span{
+color: transparent !important;
+  transition: 0.6s ease-in-out !important;
+  height: 10%;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  background-color: var(--accent-color);
+  position: absolute;
+}
 .hero .btn-get-started {
   font-weight: 500;
   font-size: 15px;
@@ -509,7 +544,7 @@ padding: 10px 5px;
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .hero  {
     font-size: 32px;
   }
 

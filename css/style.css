@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-family: "Poppins", serif;
+    --accent-color: #bd1315; 
+    --nav-color: rgb(59, 59, 59);
+}
+
+body{
+    font-family: var(--font-family);
+}
+.bg{
+    background-color: var(--accent-color);
+}
+.top_2{
+    
+    border-top: 0.2px solid rgba(136, 135, 135, 0.062);
+    background-color:rgb(238, 238, 238);
+}
+.nav-item >.nav-link {
+  font-size: 16px;
+    margin: 0px 10px ;
+color: rgb(59, 59, 59);
+    font-weight: 400 !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    opacity: 1;
+    transform: rotateX(0deg);
+
+}
+.dropdown-item{
+    padding: 5px 5px;
+}
+.dropdown-menu{
+    transform: rotateX(70deg);
+    border-top: none !important;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 15px;
+
+    transition: 0.4s ease-in-out !important ;
+ padding: 15px 8px;
+ font-size: 13px;
+ opacity: 0;   
+display: block !important;
+}
+.dropdown-item{
+    color: var(--nav-color) !important;
+    transition: 0.4s ease-in-out ;
+    padding:7px 5px !important;
+}
+.dropdown-item:hover{
+    color: white !important;
+    background-color: var(--accent-color);
+}
+.carousel-item{   
+    height: 80vh !important;
+}
+.carousel-item>img{
+    position: absolute;
+background-size: cover;
+object-fit: cover;
+height: 100%;
+}
+.carousel-item>div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.btn1{
+    border: none;
+    position: relative;
+  }
+  .btn1:hover .btn1-span{
+    height: 100%;
+    color: white !important;
+  }
+  .btn1-span{
+  color: transparent !important;
+    transition: 0.6s ease-in-out !important;
+    height: 10%;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--accent-color);
+    position: absolute;
+  }
+
+  .selc{
+    border-bottom: 1px solid lightgray!important;
+    background-color: transparent;
+    border: none ;
+    font-size: 13px !important;
+  }
+  .dr{
+    color:  rgb(150, 147, 147);
+  }
+  .span-head{
+    font-weight: 400;
+    font-size: 14px;
+    color:  rgb(105, 105, 105);
+
+  }

@@ -104,3 +104,6 @@ height: 100%;
   .border-left-box{
     border-left: 1px solid rgba(255, 255, 255, 0.534);
   }
+  .obj-fit{
+    object-fit: cover !important;
+  }

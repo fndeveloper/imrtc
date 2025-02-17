@@ -101,3 +101,6 @@ height: 100%;
     color:  rgb(105, 105, 105);
 
   }
+  .border-left-box{
+    border-left: 1px solid rgba(255, 255, 255, 0.534);
+  }

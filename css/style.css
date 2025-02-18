@@ -131,3 +131,54 @@ height: 100%;
 .col-org{
   color: var(--accent-color);
 }
+
+.img_certification{
+  border-radius: 60%;
+  height: 150px;
+  object-fit: cover;
+  background-position: center !important;
+  background-size: cover;
+}
+.promo-thumb-icon{
+  position: absolute;
+  left: 30%;
+top: -16%;
+  background-color:var(--accent-color);
+  border-radius: 50%;
+  padding: 15px;
+  border: 4px solid #ffffff;
+  font-size: 28px !important;
+  color:white !important;
+}
+.promo-item{
+  perspective: 1000px; 
+  transform-style: preserve-3d; 
+  transform:rotateY(0deg);
+  transition: 0.6s ease-in-out !important;
+}
+.promo-item:hover{
+  transform:rotateX(5deg);
+
+  cursor: grab;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
+}
+
+.promo-item:hover .rot-div {
+  transform: rotateX(0deg) translateZ(30px) !important;
+}
+.rot-div{
+ transform: translateZ(0px) ,translateX(0deg) !important;
+  transition: 0.6s ease-in-out !important;
+}
+.promo-item:hover .main-img{
+  background-size: contain;
+  background-position: right !important;
+z-index: -1;
+}
+.promo-item:hover .btn_cert{
+height: 100% !important;
+color: white !important;
+}
+
+
+

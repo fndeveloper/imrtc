@@ -3,3 +3,10 @@
                       <i class="fa-solid fa-paper-plane "></i>
                     </a>
                   </button>
+
+
+
+                   <div class="section-name col-5">
+      <i class="fa-solid fa-bolt p-2"></i>
+    <span class=""> Get More About Us</span>
+    </div>

@@ -54,6 +54,7 @@ color: rgb(59, 59, 59);
   width: 75% !important; 
   transition: 0.9s ease-in-out !important;
 }
+
 .dropdown-item{
     padding: 5px 5px;
 }
@@ -128,7 +129,13 @@ height: 100%;
   .obj-fit{
     object-fit: cover !important;
   }
+  button{
+    outline: none !important;
+
+  }
   a{
+    border: none !important;
+    outline: none !important;
     text-decoration: none;
   }
 .section-name{
@@ -143,6 +150,12 @@ height: 100%;
   background-color: #bd131628;
   border-radius: 50%;
   color: var(--accent-color);
+}
+@media (max-width:576px) {
+  .text_of_imrtc{
+    text-align: center;
+    font-size: 16px !important;
+  }
 }
 .col-grey{
   color: rgb(112, 112, 112) !important;

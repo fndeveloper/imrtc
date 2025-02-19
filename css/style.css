@@ -163,7 +163,19 @@ height: 100%;
 .col-org{
   color: var(--accent-color);
 }
+.top_to_scrol_btn{
+  position: fixed;
+  background-color: var(--accent-color);
+  z-index: 222;
+  bottom: 3%;
+  color: white !important;
+  border-radius: 50%;
+  border: 1px solid white !important;
+  right: 2%;
+  transition: 0.5s ease-in-out !important;
+  padding: 12px 15px;
 
+}
 .img_certification{
   border-radius: 60%;
   height: 150px;

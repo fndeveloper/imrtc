@@ -29,7 +29,7 @@ color: rgb(59, 59, 59);
   position: fixed;
   z-index: 2;
   backdrop-filter: blur(60px);
-  background-color: rgba(255, 255, 255, 0.486);
+  background-color: rgba(255, 255, 255, 0.774);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
   transition: 0.6s ease-in-out !important;
 }
@@ -43,16 +43,12 @@ color: rgb(59, 59, 59);
     padding: 5px 5px;
 }
 .dropdown-menu{
-    transform: rotateX(70deg);
     border-top: none !important;
 box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    margin-top: 15px;
-
     transition: 0.4s ease-in-out !important ;
  padding: 15px 8px;
  font-size: 13px;
- opacity: 0;   
-display: block !important;
+ opacity: 0; 
 }
 .dropdown-item{
     color: var(--nav-color) !important;
@@ -164,7 +160,7 @@ top: -16%;
   height: 510px;
   transform-style: preserve-3d; 
   transform:rotateY(0deg);
-  background-color:#ffffffe5 !important;
+  background-color:#ffffff !important;
   backdrop-filter: blur(45px);
   transition: 0.6s ease-in-out !important;
 }

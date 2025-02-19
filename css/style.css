@@ -151,13 +151,15 @@ top: -16%;
   color:white !important;
 }
 .promo-item{
+  background-position: center !important;
   perspective: 1000px; 
+  height: 510px;
   transform-style: preserve-3d; 
   transform:rotateY(0deg);
   transition: 0.6s ease-in-out !important;
 }
 .promo-item:hover{
-  transform:rotateX(5deg);
+  transform:rotateX(1deg);
 
   cursor: grab;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
@@ -170,11 +172,14 @@ top: -16%;
  transform: translateZ(0px) ,translateX(0deg) !important;
   transition: 0.6s ease-in-out !important;
 }
-.promo-item:hover .main-img{
-  background-size: contain;
-  background-position: right !important;
-z-index: -1;
+.main-img{
+  border: 2px solid rgba(0, 0, 0, 0.226) !important;
+  height: 140px;
+  width: 140px;
+  border-radius: 60% !important;
+  object-fit: cover;
 }
+
 .promo-item:hover .btn_cert{
 height: 100% !important;
 color: white !important;

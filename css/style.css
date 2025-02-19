@@ -14,10 +14,21 @@ body{
 .bg{
     background-color: var(--accent-color);
 }
+@media (max-width:992px) {
+  .top_2{
+padding: 10px 0px;
+  }
+}
 .top_2{
-    
     border-top: 0.2px solid rgba(0, 0, 0, 0.103);
     /* background-color:rgb(238, 238, 238); */
+}
+.btn_offcanvas{
+  border: none !important;
+  outline: none !important;
+  position:absolute !important;
+  right:0% !important;
+  top: -60% !important;
 }
 .nav-item >.nav-link {
   font-size: 16px;
@@ -38,6 +49,10 @@ color: rgb(59, 59, 59);
     opacity: 1;
     transform: rotateX(0deg);
 
+}
+.offcanvas{
+  width: 75% !important; 
+  transition: 0.9s ease-in-out !important;
 }
 .dropdown-item{
     padding: 5px 5px;

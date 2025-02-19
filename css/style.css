@@ -231,3 +231,7 @@ bottom: 0%;
   position: absolute;
   background-color: var(--accent-color);
 }
+
+.btn1-span2{
+  border: 2px solid white !important;
+}

@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* FONT FAMILY OF OUTFIT */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* FONT FAMILY OF NUNITO */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* FONT FAMILY OF Quicksand*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* FONT FAMILY OF Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+/* FONT FAMILY OF Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 :root{
     --font-family-Poppins: "Poppins", serif;
     --font-family-Outfit: "Outfit", serif;
+    --font-family-Nunito: "Nunito Sans", serif;
+    --font-family-Quicksand: "Quicksand", serif;
+    --font-family-Roboto: "Roboto Flex", serif;
+    --font-family-Manrope: "Manrope", serif;
     --accent-color: #bd1315; 
     --nav-color: rgb(59, 59, 59);
 }
 
 body{
-    font-family: var(--font-family-Outfit);
+  font-weight: 500 !important;
+    font-family: var(--font-family-Nunito);
+}
+.nav-item>.nav-link{
+  font-weight: 900 !important;
 }
 .bg{
     background-color: var(--accent-color);
@@ -196,8 +212,7 @@ top: -16%;
 }
 .promo-item{
   background-position: center !important;
-  perspective: 1000px; 
-  height: 510px;
+height: 510px;
   transform-style: preserve-3d; 
   transform:rotateY(0deg);
   background-color:#ffffff !important;
@@ -274,6 +289,27 @@ bottom: 0%;
 
 .btn1-span2{
   border: 2px solid white !important;
+}
+
+.dropdown-large{
+ width:85vw !important;
+}
+.drh{
+  /* display: block !important; */
+  font-size: 12px;
+  color: var(--accent-color);
+}
+.join_stundet_application_btn{
+  padding: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+.border_right{
+  border-right: 1px solid rgba(54, 54, 54, 0.274);
+ }
+.dropdown-menu{
+  display: block !important;
 }
 /* FOOTER START */
 footer{

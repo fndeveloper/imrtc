@@ -307,12 +307,25 @@ bottom: 0%;
 .btn1-span2{
   border: 2px solid white !important;
 }
+.nav-item {
+  position: relative !important; /* Navbar link ko reference banayega */
+}
 
-.dropdown-large{
-  box-shadow: none;
-  border: none ;
-  position: absolute;
- width:89vw !important;
+.dropdown-large {
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, 
+              rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, 
+              rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
+  border: none;
+  position: absolute !important;
+  width: 90vw !important;
+  z-index: 1000; /* Ensure it stays on top */
+  background: white; /* Background set for visibility */
+  padding:10px 60px; /* Optional: Better spacing */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+.dropdown-large1{
+  width: 55vw;
 }
 .drh{
   /* display: block !important; */

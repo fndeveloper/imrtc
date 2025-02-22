@@ -327,10 +327,19 @@ bottom: 0%;
 .dropdown-large1{
   width: 55vw;
 }
+.top_bar_1_link{
+  font-size: 14px !important;
+}
+.bg1{
+  background-color: #c91316;
+}
 .drh{
   /* display: block !important; */
   font-size: 12px;
   color: var(--accent-color);
+}
+.border_right_white{
+  border-right: 1px solid white;
 }
 .join_stundet_application_btn{
   padding: 40px;
@@ -339,7 +348,7 @@ bottom: 0%;
   background-color: var(--accent-color);
 }
 .border_right{
-  border-right: 1px solid rgba(54, 54, 54, 0.274);
+  border-right: 1px solid rgba(54, 54, 54, 0.274) !important;
  }
 
 /* FOOTER START */

@@ -29,5 +29,47 @@ year.forEach((E)=>{
     E.innerHTML=new Date().getFullYear()
 })
 
-// FOOTER COPY RIGHT YEAR CODE IS HERE
+// NAVBAR AUTOMATICALY APPLY ALL THE PAGES START
+document.addEventListener("DOMContentLoaded", function () {
+    // NAVBAR START
+    try {
+           let navbarContainer = document.createElement("div");
+           let footerContainer = document.createElement("div");
+
+        navbarContainer.id = "navbar_container";
+      
+        
+       
+        document.body.prepend(navbarContainer);
+           fetch("/header.html")
+            .then(response => response.text())
+            .then(data => {
+                navbarContainer.innerHTML = data;
+            })
+            .catch(error => console.error("Navbar load failed:", error));
+    } catch (error) {
+        console.error("Error in navbar script:", error);
+    }
+    // NAVBAR END
+    try {
+      
+        let footerContainer = document.createElement("div");
+     footerContainer.id = "footer_container";
+
+     document.body.append(footerContainer);
+
+// FOOTER START
+     fetch("/footer.html")
+         .then(response => response.text())
+         .then(data => {
+            footerContainer.innerHTML = data;
+         })
+         .catch(error => console.error("Navbar load failed:", error));
+ } catch (error) {
+     console.error("Error in navbar script:", error);
+ }
+    // FOOTER END
+});
+// NAVBAR AUTOMATICALY APPLY ALL THE PAGES END
+
 

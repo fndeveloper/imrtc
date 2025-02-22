@@ -235,7 +235,6 @@ top: -16%;
   background-position: center !important;
   transform-style: preserve-3d; 
   transform:rotateY(0deg);
-  background-color:#ffffff !important;
   backdrop-filter: blur(45px);
   transition: 0.6s ease-in-out !important;
 }
@@ -312,6 +311,7 @@ bottom: 0%;
 .dropdown-large{
   box-shadow: none;
   border: none ;
+  position: absolute;
  width:89vw !important;
 }
 .drh{

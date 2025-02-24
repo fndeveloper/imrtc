@@ -227,13 +227,12 @@ top: -16%;
   font-size: 28px !important;
   color:white !important;
 }
-.certification_main_div >div{
-  border-radius: 5px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px ;
-}
+
 
 .promo-item{
-  
+  height: 45  0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px ;
+  border-radius: 30px !important;
   background-position: center !important;
   transform-style: preserve-3d; 
   transform:rotateY(0deg);
@@ -336,7 +335,7 @@ bottom: 0%;
   font-size: 14px !important;
 }
 .bg1{
-  background-color: #c91316;
+  background-color: #d11417;
 }
 .drh{
   /* display: block !important; */
@@ -357,6 +356,12 @@ bottom: 0%;
  }
 .border_bottom_org{
   border-bottom: 1px solid var(--accent-color);
+}
+.course_div_main{
+  border-radius: 30px;
+}
+.bg_black{
+  background-color: rgb(223, 221, 221);
 }
 /* FOOTER START */
 footer{

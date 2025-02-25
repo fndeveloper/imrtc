@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 });
 
-                if (window.scrollY > 800) {
+                if (window.scrollY > 300) {
                     navbar.classList.add("fixed-nav");
                 } else {
                     navbar.classList.remove("fixed-nav");

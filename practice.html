@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Active Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        .section {
+            height: 100vh; /* Full screen height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            background-color: lightgray;
+            transition: background-color 0.5s ease-in-out;
+        }
+        .section.active {
+            background-color: #343a40 !important; /* Dark background */
+            color: white;
+        }
+        .navbar {
+            background-color: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link.active {
+            font-weight: bold;
+            color: #bd1315 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#div1">Div 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#div2">Div 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#div3">Div 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#div4">Div 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <div id="div1" class="section">Div 1</div>
+    <div id="div2" class="section">Div 2</div>
+    <div id="div3" class="section">Div 3</div>
+    <div id="div4" class="section">Div 4</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll(".section");
+            const navLinks = document.querySelectorAll(".nav-link");
+
+            function activateSection() {
+                let scrollPosition = window.scrollY + window.innerHeight / 2;
+console.log(scrollPosition);
+
+                sections.forEach((section, index) => {
+                    let sectionTop = section.offsetTop;
+                    let sectionHeight = section.offsetHeight;
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        sections.forEach(sec => sec.classList.remove("active"));
+                        navLinks.forEach(link => link.classList.remove("active"));
+
+                        section.classList.add("active");
+                        navLinks[index].classList.add("active");
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", activateSection);
+            activateSection();
+        });
+    </script>
+
+</body>
+</html>

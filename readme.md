@@ -12,14 +12,14 @@
     </div>
 
 
-            <!-- IMRTC CAMP CERTIFICATION   START -->
+            <!-- IMRTC CAMP Certifications   START -->
         <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 mt-3">
           <div class="promo-item item-1 col-lg-11 col-12 text-center p-4 rounded shadow-lg position-relative bg-white ">
             <!-- Main Image -->
             <div class="promo-thumb mt-4 position-relative col-6 mx-auto">
 
               <img decoding="async" class="main-img img-fluid rounded"
-                src="assets/img/certification_image/imrtc_camp.jpg" alt>
+                src="assets/img/Certifications_image/imrtc_camp.jpg" alt>
             </div>
 
             <!-- Title & Description -->
@@ -34,7 +34,7 @@
                 those involve in
                 administration and to learn
                 and earn an internationally
-                recognized certification in
+                recognized Certifications in
                 Administrative Management
                 .</p>
             </div>
@@ -51,4 +51,4 @@
 
           </div>
         </div>
-        <!-- IMRTC CAMP CERTIFICATION  END -->
+        <!-- IMRTC CAMP Certifications  END -->

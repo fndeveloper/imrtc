@@ -46,14 +46,20 @@ padding: 10px 0px;
   position: sticky !important;
 }
 .simple-list-example-scrollspy li a.active {
-  font-weight: bold;
-  background-color: white !important;
-  color:var(--accent-color)!important;
+box-shadow: none !important;
+font-weight: 500;
+  background-color: var(--accent-color) !important; 
+  color:white!important;
 }
 .simple-list-example-scrollspy li a{
 transition: 0.4s ease-in-out !important;
 }
-
+.single_Certifications_img{
+  background-size: cover !important;
+  object-fit: cover !important;
+  height: 300px  !important;
+  background-position: center;
+}
 .bottom_div_hero{
   bottom: 4%;
   position: absolute;
@@ -151,7 +157,7 @@ color: white;
     height: 80vh !important;
 }
 .hero_section{   
-  height: 65vh !important;
+height: 65vh !important;
 }
 .carousel-item>img{
     position: absolute;
@@ -175,11 +181,12 @@ height: 100%;
 
 /* Make sure the button styles are correct */
 .knowledge_area_dropdown>li{
-  margin: 4px 0px !important;
+  margin: 5px 0px ;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .knowledge_area_dropdown>li>a{
-  color: white;
-  font-size: 14px;
+  color: black;
+  font-size: 13px;
 }
 /* KNOWLEDGE AREA DROPDOWN */
 .btn1{
@@ -269,7 +276,7 @@ height: 100%;
   padding: 12px 15px;
 
 }
-.img_certification{
+.img_Certifications{
   border-radius: 60%;
   height: 150px;
   object-fit: cover;

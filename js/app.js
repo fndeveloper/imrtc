@@ -128,21 +128,21 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav  mx-auto d-flex justify-content-between">
 
-            <!--        Certifications nav-link start  -->
+            <!--        Certificationss nav-link start  -->
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Certifications
+                Certificationss
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
                 <h4 class="px-1 py-3 fw-bold fs-3"><i
-                    class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certification</h4>
+                    class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
                 <div class="container-fluid d-flex flex-row justify-content-around m-0 p-0">
 
-                  <!--  Cybron Associate Certifications  -->
+                  <!--  Cybron Associate Certificationss  -->
                   <div class="col-lg-3 col-md-6 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certification</h5>
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h5>
                       <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
                         Certified Human Resource
                         Management <br> Professional</a>
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   </div>
                   <!--  Cybron Security Professional  -->
                   <div class="col-lg-3 col-md-6 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certification </h5>
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
 
 
                       <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
@@ -172,9 +172,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                   </div>
-                  <!--  Cybron Scout Certifications  -->
+                  <!--  Cybron Scout Certificationss  -->
                   <div class="col-lg-3  col-md-6 m-0 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certification</h6>
+                    <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
 
                     <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
                       Cyber Security Management <br>Professional</a>
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             </li>
 
-            <!--        Certifications nav-link end  -->
+            <!--        Certificationss nav-link end  -->
             <!--        Chapters nav-link start  -->
 
             <li class="nav-item dropdown">
@@ -307,12 +307,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     Activities</a></li>
                 <li><a class="dropdown-item" href="TrainingDevelopment.html">Management
                     & Technology Training &
-                    <br>Certifications </a></li>
+                    <br>Certificationss </a></li>
                 <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
                     Paper Review, Evaluation &
                     Appraisals</a></li>
-                <li><a class="dropdown-item" href="Certifications.html">Curriculum
-                    Endorsements & Certifications</a></li>
+                <li><a class="dropdown-item" href="Certificationss.html">Curriculum
+                    Endorsements & Certificationss</a></li>
              
                 <li><a class="dropdown-item" href="Publication.html">Publications
                     Journal & Magazines </a></li>
@@ -383,21 +383,21 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="mt-5">
         <ul class="navbar-nav  mx-auto d-flex justify-content-between">
 
-          <!--        Certifications nav-link start  -->
+          <!--        Certificationss nav-link start  -->
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Certifications
+              Certificationss
             </a>
             <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
               <h4 class="px-1 py-3 fw-bold fs-3"><i
-                  class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certification</h4>
+                  class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
               <div class="container-fluid d-flex flex-row justify-content-around m-0 p-0">
 
-                <!--  Cybron Associate Certifications  -->
+                <!--  Cybron Associate Certificationss  -->
                 <div class="col-lg-3 col-md-6 border_right me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certification</h5>
+                  <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h5>
                     <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
                       Certified Human Resource
                       Management <br> Professional</a>
@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <!--  Cybron Security Professional  -->
                 <div class="col-lg-3 col-md-6 border_right me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certification </h5>
+                  <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
 
 
                     <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
@@ -427,9 +427,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                 </div>
-                <!--  Cybron Scout Certifications  -->
+                <!--  Cybron Scout Certificationss  -->
                 <div class="col-lg-3  col-md-6 m-0 border_right me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certification</h6>
+                  <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
 
                   <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
                     Cyber Security Management <br>Professional</a>
@@ -454,7 +454,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           </li>
 
-          <!--        Certifications nav-link end  -->
+          <!--        Certificationss nav-link end  -->
           <!--        Chapters nav-link start  -->
 
           <li class="nav-item dropdown">
@@ -562,12 +562,12 @@ document.addEventListener("DOMContentLoaded", function () {
                   Activities</a></li>
               <li><a class="dropdown-item" href="TrainingDevelopment.html">Management
                   & Technology Training &
-                  <br>Certifications </a></li>
+                  <br>Certificationss </a></li>
               <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
                   Paper Review, Evaluation &
                   Appraisals</a></li>
-              <li><a class="dropdown-item" href="Certifications.html">Curriculum
-                  Endorsements & Certifications</a></li>
+              <li><a class="dropdown-item" href="Certificationss.html">Curriculum
+                  Endorsements & Certificationss</a></li>
            
               <li><a class="dropdown-item" href="Publication.html">Publications
                   Journal & Magazines </a></li>
@@ -635,6 +635,6 @@ document.addEventListener("DOMContentLoaded", function () {
 //  ============================== SAME CONTENT CODE WHICH IS REMAIN SAME ALL THE PAGES END ==============================
 
 
-// ================================ CERTIFICATION PARA OR HREF TARGET START ================================
+// ================================ Certifications PARA OR HREF TARGET START ================================
 
-// ================================ CERTIFICATION PARA OR HREF TARGET END ================================
+// ================================ Certifications PARA OR HREF TARGET END ================================

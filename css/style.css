@@ -39,6 +39,14 @@ padding: 10px 0px;
 .text_justify_all{
   text-align: justify !important;
 }
+.position_sticky{
+  max-height:  max-content;
+  height: auto !important;
+  top: 2%;
+  position: sticky !important;
+}
+
+
 .bottom_div_hero{
   bottom: 4%;
   position: absolute;
@@ -102,10 +110,10 @@ color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
   transition: 0.6s ease-in-out !important;
 }
-.dropdown:hover .dropdown-menu{
+.navbar-nav .dropdown:hover  .dropdown-menu{
     display: block !important;
     opacity: 1;
-    transform: rotateX(0deg);
+    /* transform: rotateX(0deg); */
 
 }
 .offcanvas{
@@ -113,13 +121,13 @@ color: white;
   transition: 0.9s ease-in-out !important;
 }
 
-.dropdown-menu{
+.navbar-nav .dropdown-menu{
     border-top: none !important;
     box-shadow: none !important;
     transition: 0.4s ease-in-out !important ;
  padding: 15px 8px;
  font-size: 13px;
- opacity: 0; 
+ /* opacity: 0;  */
 }
 .dropdown-item{
   font-size: 14px;
@@ -149,6 +157,24 @@ height: 100%;
     width: 100%;
     position: absolute;
 }
+/* KNOWLEDGE AREA DROPDOWN */
+/* Target only the "KNOWLEDGE AREAS" dropdown */
+.knowledge_area_dropdown .dropdown .dropdown-menu {
+
+  z-index: 1050 !important;
+}
+
+/* Show dropdown only when button is clicked */
+
+/* Make sure the button styles are correct */
+.knowledge_area_dropdown>li{
+  margin: 4px 0px !important;
+}
+.knowledge_area_dropdown>li>a{
+  color: white;
+  font-size: 14px;
+}
+/* KNOWLEDGE AREA DROPDOWN */
 .btn1{
     border: none;
     position: relative;
@@ -342,7 +368,7 @@ bottom: 0%;
               rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
   border: none;
   left: 0% !important;
-  position: absolute !important;
+  position: fixed !important;
   transform: translate(5%,0%) !important;
   margin: 0px auto !important;
   z-index: 1000; /* Ensure it stays on top */

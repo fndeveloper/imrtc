@@ -635,3 +635,6 @@ document.addEventListener("DOMContentLoaded", function () {
 //  ============================== SAME CONTENT CODE WHICH IS REMAIN SAME ALL THE PAGES END ==============================
 
 
+// ================================ CERTIFICATION PARA OR HREF TARGET START ================================
+
+// ================================ CERTIFICATION PARA OR HREF TARGET END ================================

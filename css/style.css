@@ -45,7 +45,14 @@ padding: 10px 0px;
   top: 2%;
   position: sticky !important;
 }
-
+.simple-list-example-scrollspy li a.active {
+  font-weight: bold;
+  background-color: white !important;
+  color:var(--accent-color)!important;
+}
+.simple-list-example-scrollspy li a{
+transition: 0.4s ease-in-out !important;
+}
 
 .bottom_div_hero{
   bottom: 4%;

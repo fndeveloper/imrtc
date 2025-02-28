@@ -51,9 +51,12 @@ font-weight: 500;
 text-decoration: none !important;
   background-color: var(--accent-color) !important; 
   color:white!important;
+}.simple-list-example-scrollspy li a:hover{
+  background-color: var(--accent-color);
+  color: white;
 }
-.nav-link{
-  text-decoration: none !important;
+a, a:visited, a:focus, a:active {
+  color: #333 !important;  /* Fixed dark gray color */
 }
 .simple-list-example-scrollspy li a.active:focus,
 .simple-list-example-scrollspy li a.active:active {
@@ -388,8 +391,8 @@ bottom: 0%;
 .dropdown-large {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, 
               rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, 
-              rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
-  border: none;
+              rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset outset !important;
+
   
   z-index: 1000; 
   background: white;
@@ -416,12 +419,7 @@ bottom: 0%;
 }
 
 /* Active section highlight */
-.section_single_cert.active {
-  background-color: #343a40 !important; /* Dark background */
-  color: #ffffff; /* White text */
-  padding: 20px;
-  border-radius: 5px;
-}
+
 .join_stundet_application_btn{
   padding: 40px;
   color: white;

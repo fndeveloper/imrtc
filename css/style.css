@@ -156,7 +156,7 @@ color: white;
   font-weight: 600 !important;
     color: var(--nav-color) !important;
     transition: 0.4s ease-in-out ;
-    padding:7px 5px !important;
+    padding:7px 3px !important;
 }
 .dropdown-item:hover{
     color: white !important;
@@ -390,15 +390,11 @@ bottom: 0%;
               rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, 
               rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset !important;
   border: none;
-  left: 0% !important;
-  position: fixed !important;
-  transform: translate(5%,0%) !important;
-  margin: 0px auto !important;
-  z-index: 1000; /* Ensure it stays on top */
-  background: white; /* Background set for visibility */
-  padding:10px 60px; /* Optional: Better spacing */
-  border-radius: 8px; /* Optional: Rounded corners */
-  width: 90vw !important;
+  
+  z-index: 1000; 
+  background: white;
+  border-radius: 8px; 
+  width: max-content !important;
 }
 
 .top_bar_1_link{

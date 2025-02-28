@@ -55,8 +55,38 @@ text-decoration: none !important;
   background-color: var(--accent-color);
   color: white;
 }
-a, a:visited, a:focus, a:active {
-  color: #333 !important;  /* Fixed dark gray color */
+ a:focus{
+  color: #000000 !important;  /* Fixed dark gray color */
+}
+thead>tr>th{
+
+  font-weight: 300 !important;
+}
+.accordion-button::after {
+  font-weight: bolder;
+   filter: invert(1); /* White color effect */
+}
+.accordion{
+  z-index: 1;
+
+}
+.accordion-button{
+  z-index: 1;
+  border: none !important;
+  outline: none !important;
+  color: white !important;
+  background-color: var(--accent-color) !important;
+}
+td{
+  border: 1px solid #0000002d;
+}
+thead{
+  color: white;
+  background-color: var(--accent-color);
+}
+.accordion-item{
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .simple-list-example-scrollspy li a.active:focus,
 .simple-list-example-scrollspy li a.active:active {

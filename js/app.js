@@ -635,6 +635,12 @@ document.addEventListener("DOMContentLoaded", function () {
 //  ============================== SAME CONTENT CODE WHICH IS REMAIN SAME ALL THE PAGES END ==============================
 
 
-// ================================ Certifications PARA OR HREF TARGET START ================================
+// ================================ DIAL COUNTRY CODE START ================================
 
-// ================================ Certifications PARA OR HREF TARGET END ================================
+// ================================ DIAL COUNTRY CODE END ================================
+const input = document.querySelector("#phone");
+window.intlTelInput(input, {
+  initialCountry: "us",
+  loadUtils: () => import("/intl-tel-input/js/utils.js?1733756310855") // for formatting/placeholders etc
+});
+

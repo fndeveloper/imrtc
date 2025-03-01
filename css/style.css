@@ -35,10 +35,21 @@ body{
   .top_2{
 padding: 10px 0px;
   }
-}
-.text_justify_all{
-  text-align: justify !important;
-}
+  .top_2{
+  
+  padding: 10px 0px !important;
+    }
+    #simple-list-item-8 {
+      text-align: start !important;
+      }  
+}  
+
+.scrollspy-example p i {
+    text-align: justify !important;
+  }
+  .scrollspy-example li{
+    text-align: start !important;
+  }
 .position_sticky{
   max-height:  max-content;
   height: auto !important;
@@ -62,7 +73,8 @@ thead>tr>th{
 
   font-weight: 300 !important;
 }
-.accordion-button::after {
+    
+.accordion-button::after {          
   font-weight: bolder;
   z-index: -1;
    filter: invert(1); /* White color effect */
@@ -120,10 +132,11 @@ backdrop-filter: blur(5px);
 
 .top_2{
   margin: 0px !important;
-  padding: 0px !important;
-background-color:white !important;
+background-color:rgb(255, 255, 255) !important;
 z-index: 22 !important;
+padding: 0px;
   }
+
   header{
     z-index: 222 !important;
   }
@@ -139,7 +152,9 @@ z-index: 22 !important;
   outline: none !important;
   position:absolute !important;
   right:0% !important;
-  top: -60% !important;
+  color: var(--accent-color);
+  
+  top: 25% !important;
 }
 .nav-item >.nav-link {
   font-size: 16px;
@@ -164,8 +179,8 @@ color: white;
 .fixed-nav{
   position: fixed;
   z-index: 2;
- 
-  background-color: white;
+  margin: 0px;
+ width: 100% !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
   transition: 0.6s ease-in-out !important;
 }

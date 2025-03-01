@@ -34,11 +34,8 @@ body{
 @media (max-width:992px) {
   .top_2{
 padding: 10px 0px;
-  }
-  .top_2{
-  
-  padding: 10px 0px !important;
-    }
+}
+
     #simple-list-item-8 {
       text-align: start !important;
       }  
@@ -217,9 +214,17 @@ color: white;
 .carousel-item{   
     height: 80vh !important;
 }
-.hero_section{   
-height: 65vh !important;
+.hero_section {   
+ min-height: 65vh;
+height: max-content !important;
+object-fit: cover; 
+background-size: cover;
 }
+.hero_banner_img{
+height: 100% !important;
+
+}
+
 .carousel-item>img{
     position: absolute;
 background-size: cover;

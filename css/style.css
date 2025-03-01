@@ -113,6 +113,7 @@ thead{
   color:black !important;
 }
 .simple-list-example-scrollspy li a{
+  padding: 10px;
 transition: 0.4s ease-in-out !important;
 }
 .single_Certifications_img{

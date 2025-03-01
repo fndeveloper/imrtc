@@ -637,10 +637,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ================================ DIAL COUNTRY CODE START ================================
 
-// ================================ DIAL COUNTRY CODE END ================================
 const input = document.querySelector("#phone");
 window.intlTelInput(input, {
   initialCountry: "us",
   loadUtils: () => import("/intl-tel-input/js/utils.js?1733756310855") // for formatting/placeholders etc
 });
 
+// ================================ DIAL COUNTRY CODE END ================================

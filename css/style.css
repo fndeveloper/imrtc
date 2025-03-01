@@ -44,7 +44,7 @@ padding: 10px 0px;
       }  
 }  
 
-.scrollspy-example p i {
+.scrollspy-example p  {
     text-align: justify !important;
   }
   .scrollspy-example li{

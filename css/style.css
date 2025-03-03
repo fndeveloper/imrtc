@@ -371,7 +371,9 @@ top: -16%;
   color:white !important;
 }
 
-
+thead {
+  background-color: #000000 !important;
+}
 .promo-item{
   max-height: max-content !important;
 

@@ -39,6 +39,11 @@ padding: 10px 0px;
     #simple-list-item-8 {
       text-align: start !important;
       }  
+      .dropdown-menu {
+        position: static !important;
+        width: 100%;
+        box-shadow: none;
+    }
 }  
 
 .scrollspy-example>div>div{

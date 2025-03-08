@@ -87,10 +87,7 @@ thead>tr>th{
   z-index: -1;
    filter: invert(1); /* White color effect */
 }
-.accordion{
-  z-index: 1;
 
-}
 .accordion-button{
   z-index: 1;
   border: none !important;

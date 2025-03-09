@@ -644,3 +644,7 @@ window.intlTelInput(input, {
 });
 
 // ================================ DIAL COUNTRY CODE END ================================
+
+$(document).ready(function () {
+  $('#myTable').DataTable(); // Activate DataTables
+});

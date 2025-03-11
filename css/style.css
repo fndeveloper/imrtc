@@ -105,6 +105,45 @@ thead{
 
   background-color: var(--accent-color);
 }
+.chapter_table th,
+.chapter_table td {
+  border: 0.1px dotted #46454538 ;
+    font-size: 13px !important;
+    padding: 20px !important;
+}
+.chapter_table th{
+  font-weight: bolder !important;
+}
+.dataTables_filter input {
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+border: none !important;
+margin: 5px 0px;
+  background-color: white !important;
+}
+.dataTables_paginate {
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+}
+.dataTables_filter label {
+  color: white !important; /* Change text color to white */
+  font-weight: bold; /* Optional: Make text bold */
+}
+
+.dataTables_paginate .paginate_button {
+  padding: 6px 12px;
+  margin: 2px;
+  transition: 0.6s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dataTables_paginate .paginate_button:hover {
+  background: var(--accent-color) !important;
+  color: white !important;
+}
+
 .accordion-item{
 
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;

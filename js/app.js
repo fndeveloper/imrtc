@@ -636,15 +636,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // ================================ DIAL COUNTRY CODE START ================================
-
 const input = document.querySelector("#phone");
+if(input){
 window.intlTelInput(input, {
   initialCountry: "us",
   loadUtils: () => import("/intl-tel-input/js/utils.js?1733756310855") // for formatting/placeholders etc
 });
-
+}
 // ================================ DIAL COUNTRY CODE END ================================
-
 $(document).ready(function () {
-  $('#myTable').DataTable(); // Activate DataTables
+  // Initialize DataTable
+  var table = $('#myTable').DataTable({
+    "paging": true,      // Enable pagination
+    "pageLength": 5,     // Show 5 rows per page
+    "searching": true,   // Enable search
+    // "info": true,        // Show table info
+    "lengthMenu": [1,3,6], // Entries dropdown values
+    "dom": 'lrtip', // Removes the "Show entries" dropdown 
+    "info": false,        // ❌ Hide "Showing X to Y of Z entries"
+ "dom": 'frtp' 
+  });
+
+  $('#searchBox').on('keyup', function () {
+    table.search(this.value).draw();
 });
+});
+
+

@@ -93,37 +93,148 @@
   
 <main>
 <div class="container-fluid my-4 d-flex flex-lg-row flex-column ">
-    <div class="col-lg-4 col-12 bg py-3 d-flex flex-row justify-content-center align-items-center">
-            <img src="assets/img/images/apply_for_chapter_side_image.jpg" class="img-fluid mx-auto col-11" alt="">
+    <div class="col-lg-4 col-12 bg py-3 d-flex flex-column">
+      <h2 class="text-center text-white py-1 mb-3">
+        JOIN US 
+    </h2>
+      <img src="assets/img/images/apply_for_chapter_side_image.jpg" class="img-fluid mx-auto col-11" alt="">
        
     </div>
     <div class="col-lg-8 mt-lg-0 mt-4 d-flex flex-row justify-content-center align-items-center ">
-<div class="col-lg-11 col-12">
-    <h2 class="mb-3 fs-1 col-org ">Imrtc Required Applications From Students</h2>
-    <p class="col-lg-11 col-12">
-        The Chapters Login Form allows registered chapter representatives to securely access their accounts. It enables them to manage chapter details, update information, and communicate with the IMRTC administration. For security, users must provide valid login credentials to proceed.
 
-    </p>
+  <div class="col-lg-11 mx-auto application_Student_form">
     
-    <div class="mt-5 pt-3">
-        <label for="continent" class="form-label col-grey fs-6">Chapter Email Address [User Name]:</label>
-      <input type="text" placeholder="Enter Your Email Address Please" class="form-control">
-    </div>
-    <div class="pt-4">
-        <label for="continent" class="form-label col-grey fs-6">Password:</label>
-      <input type="text" placeholder="Enter Your Password" class="form-control">
-    </div>
-    <button class="btn1 p-2 px-5 fs-6 mt-5">Submit
-        <a href="index.html" class="btn1-span d-flex flex-row align-items-center justify-content-center">
+   
+    <h2 class="col-org  fs-1 col-org pb-3">
+    Student For Research Papers <br> & Articles
+    </h2> 
+    
+<h3>IMRTC REQUIRED APPLICATIONS FROM STUDENTS</h3>
+    <h4 class="my-3 pt-3">Application for Students</h4>
 
-        <i class="fa-solid fa-upload"></i>
-        </a>
-        </button>
-    <div class="alert alert-warning mt-4">
-        <strong>NOTE!</strong> Please note after submitting an application regarding Chapter or Partnership 
-        in any context, your application will take time for processing. Therefore, please wait for the next 
-        email from IMRTC. Further, your partnership shall be granted after analysis and requirements.
+    <!-- INDAPP_RT_STUDENT FORM START -->
+<form action="">
+      <!-- Select Country -->
+      <div class="mb-3">
+      
+        <select id="selectCountry" class="form-select">
+        <option value=""selected disabled >  Select Country    (If your country is not displaying, kindly select United States)</option>
+        <option value="India">India</option>
+                  
+        <option value="Kenya">Kenya</option>
+        
+        <option value="Niger">Niger</option>
+        
+        <option value="Nigeria">Nigeria</option>
+        
+        <option value="Pakistan">Pakistan</option>
+        
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        
+        <option value="Somalia">Somalia</option>
+        
+        <option value="Sri Lanka">Sri Lanka</option>
+        
+        <option value="Uganda">Uganda</option>
+        
+        <option value="United Kingdom">United Kingdom</option>
+        
+        <option value="United States">United States</option>
+        </select>
     </div>
+
+    <!-- Select Your Partner -->
+    <div class="mb-3">
+         <select id="selectPartner" class="form-select">
+          <option value="" selected disabled  >Select Your Partner</option>
+          <option value="AS5588322_Pakistan"> 3D EDUCATORS - TRAINERS &amp; CONSULTANTS - Pakistan 
+          </option>
+          
+          <option value="AS3132369_Saudi Arabia"> MHSG Consulting Saudi Arab - Saudi Arabia 
+          </option>
+          
+          <option value="NA2315646_United States"> IMRTC Research, &amp; Training Center - United States 
+          </option>        </select>
+    </div>
+
+    <!-- Name Fields (First, Middle, Last) -->
+    <div class="row g-3">
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+        </div>
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="middleName" placeholder="Enter Middle Name">
+        </div>
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+        </div>
+    </div>
+
+    <!-- Contact Number -->
+    <div class="mb-3 mt-3">
+      
+        <input type="text" class="form-control" id="contactNumber" placeholder="Enter Contact Number">
+    </div>
+
+    <!-- Email Address -->
+    <div class="mb-3">
+
+        <input type="email" class="form-control" id="emailAddress" placeholder="Enter Email Address">
+    </div>
+
+    <!-- Confirm Email Address -->
+    <div class="mb-3">
+       
+        <input type="email" class="form-control" id="confirmEmail" placeholder="Confirm Email Address">
+    </div>
+
+    <!-- Password & Confirm Password -->
+    <div class="row g-3">
+        <div class="col-md-6">
+        
+            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+        </div>
+        <div class="col-md-6">
+          
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+    </div>
+
+    <!-- Primary Work or Field -->
+    <div class="mb-3 mt-3">
+        <select id="primaryWork" class="form-select">
+          <option selected disabled>Select Your Primary Work or Field</option>
+          <option value="Technology" selected="">Technology</option>
+          <option value="Management">Management</option>
+          <option value="Technology Management">Technology Management</option>
+          <option value="Integration of Management &amp; Technology">Integration of Management &amp; Technology</option>
+   <option value="Internal Auditing">Internal Auditing</option>
+         <option value="Management Accountancy">Management Accountancy</option>
+        </select>
+    </div>
+
+    <!-- Last Qualification -->
+    <div class="mb-3">
+         <input type="text" class="form-control" id="lastQualification" placeholder="Enter Your Last Qualification">
+    </div>
+
+    <!-- Profile (200 words max) -->
+    <div class="mb-3">
+         <textarea class="form-control" id="profile" rows="4" placeholder="Write a brief profile here..."></textarea>
+    </div>
+
+    <!-- Captcha -->
+    <div class="mb-3">
+        <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha Code IGRKBC">
+    </div>
+
+</form>
+    <!-- INDAPP_RT_STUDENT FORM END -->
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-danger">Submit</button>
+
+
 </div>
     </div>
     

@@ -70,10 +70,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <!-- ================= HEADER START =================== -->
 <header class="header m-0 p-0  d-flex flex-column">
   <!-- ============= TOP BAR 1 START =================== -->
-  <div class="container-fluid bg1 d-flex flex-row align-items-center px-4 py-2">
+  <div class="container-fluid bg1 d-flex flex-lg-row flex-column align-items-center px-4 py-2">
     <div class="col-lg-6 d-flex flex-row align-items-center">
       <ul class="list-unstyled  d-flex flex-row justify-content-between">
-        <li class="mt-2 border_right_white px-2"><a href="" class="text-white fs-6 top_bar_1_link ">About</a></li>
+        <li class="mt-2 _white px-2"><a href="" class="text-white fs-6 top_bar_1_link ">About</a></li>
         <li class="mt-2 border_right_white px-2"><a href="" class="text-white fs-6 top_bar_1_link ">Contact</a></li>
 
         <li class="mt-2 border_right_white px-2"><a href="" class="text-white fs-6 top_bar_1_link ">Login</a></li>
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
       <img src="assets/img/logo/logo.jpg" class="img-fluid " alt>
       <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
-        Management Research <br>And Technology Consortium - USA
+        Management Research <br>and Technology Consortium - USA
       </h5>
     </a>
 
@@ -133,32 +133,32 @@ document.addEventListener("DOMContentLoaded", function () {
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Certificationss
+                Certifications
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
                 <h4 class="px-1 py-3 fw-bold fs-3"><i
                     class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
-                <div class="container-fluid d-flex flex-row justify-content-around m-0 p-0">
+                <div class="container-fluid d-flex flex-row justify-content-between m-0 p-0 mx-auto">
 
-                  <!--  Cybron Associate Certificationss  -->
-                  <div class="col-lg-3 col-md-6 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h5>
+                  <!--  Management Certifications  -->
+                  <div class="px-2  border_right ">
+                    
+                    <h6 class="  text-start  fw-bold   ">Management Certifications</h5>
                       <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
                         Certified Human Resource
                         Management <br> Professional</a>
                       <a class="dropdown-item"
                         href="camp-certified-administrative-management-professional.html">Certified Administrative
                         Management <br> Professional</a>
-                      <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
-                        Technology Management <br> Professional</a>
+
                       <a class="dropdown-item"
                         href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
                         Human Resource <br> Management</a>
 
                   </div>
-                  <!--  Cybron Security Professional  -->
-                  <div class="col-lg-3 col-md-6 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
+                  <!--  Six Sigma Lean Certifications  -->
+                  <div class="px-2  border_right ">
+                    <h6 class="  text-start  fw-bold   ">Six Sigma Lean Certifications </h5>
 
 
                       <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
@@ -172,21 +172,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                   </div>
-                  <!--  Cybron Scout Certificationss  -->
-                  <div class="col-lg-3  col-md-6 m-0 border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
+                  <!--  Cyber & Technology Certifications Certificationss  -->
+                  <div class=" px-2  m-0 border_right ">
+                    <h6 class="  text-start  fw-bold  border_under">Cyber & Technology Certifications</h6>
 
                     <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
                       Cyber Security Management <br>Professional</a>
-                    <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
+                    <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
                       Technology Management <br>Professional</a>
 
                   </div>
-                  <!--  Cybron Network  -->
+                  <!--  Cyber & Technology Certifications Certificationss -->
 
-                  <div class="col-lg-3 col-md-6">
+                  <div class="px-2 ">
 
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Internal Audit</h5>
+                    <h6 class="  text-start  fw-bold   ">Internal Audit</h5>
 
                       <a class="dropdown-item" href="diploma-in-internal-audit.html">Profesional Diploma In Internal
                         <br> Audit</a>
@@ -210,11 +210,11 @@ document.addEventListener("DOMContentLoaded", function () {
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="Chapters-Partnerships.html">Authorized
                     Chapters</a></li>
-                <li><a class="dropdown-item" href="ApplyForChapters.html">Apply For
+                <li><a class="dropdown-item" href="Apply-For-Chapters.html">Apply For
                     Chapters</a></li>
-                <li><a class="dropdown-item" href="ChaptersPorta.html">Chapters
+                <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
                     Portal</a></li>
-                <li><a class="dropdown-item" href="ChapterPresidentProfile.html">Chapters
+                <li><a class="dropdown-item" href="Chapter-President-Profile.html">Chapters
                     President Profile</a></li>
 
               </ul>
@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Partners
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="PartnerUnderChapters.html">Partners
+                <li><a class="dropdown-item" href="Partner-Under-Chapters.html">Partners
                     From Chapters</a></li>
                 <li><a class="dropdown-item" href="Partner-Subscription.html">Apply
                     For Partnerships</a></li>
@@ -245,17 +245,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 Membership
               </a>
               <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
-                <h4 class="px-1 py-3 fw-bold fs-3 ">Membership</h4>
+               
+                  <h4 class="px-1 py-3 fw-bold fs-3 ">
+                    <i
+                    class="fas fa-id-card bg text-white p-1 rounded-3"></i>
+                    Membership</h4>
                 <div class="container d-flex flex-row  m-0 p-0">
 
                   <!--  JOIN IMRTC START -->
-                  <div class="col-lg-4 col-md-6 border_right me-2">
+                  <div class="px-3  border_right me-2">
                     <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h5>
-                      <li><a class="dropdown-item" href="Membership.html">Student Membership [FREE]</a></li>
-                      <li><a class="dropdown-item" href="Memberslogin.html">Researchers Membership [FREE]</a></li>
-                      <li><a class="dropdown-item" href="IndApp_Association.html">Industry Partner Membership [Free]</a>
+                      <li><a class="dropdown-item" href="IndApp_RTStudent.html">Student Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="IndApp_RTProf.html">Researchers Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="IndApp_RTIndustryPartner.html">Industry Partner Membership [Free]</a>
                       </li>
                       <li><a class="dropdown-item" href="IndApp_RTStudent.html">Trainer Membership [Free]</a></li>
+                      <li><a class="dropdown-item" href="IndApp_ProfessionalMemberships.html">Professional Membership</a></li>
 
 
 
@@ -263,7 +268,12 @@ document.addEventListener("DOMContentLoaded", function () {
                   <!--  JOIN IMRTC END -->
 
                   <!--  BENEFIT OF MEMBERSHIP START  -->
-                  <div class="col-lg-4 col-md-6 border_right me-2">
+                  <div class="px-3  border_right me-2">
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">IMRTC Membership</h5>
+
+
+                      <a class="dropdown-item mb-3"  href="membership.html ">IMRTC Membership</a>
+
                     <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Benefit</h5>
 
 
@@ -274,15 +284,16 @@ document.addEventListener("DOMContentLoaded", function () {
                   <!--  BENEFIT OF MEMBERSHIP END  -->
 
                   <!--  BECOME AN ACCREDIT TRAINER START  -->
-                  <div class="col-lg-4 col-md-6 border_right me-2">
+                  <div class="px-3   me-2">
                     <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredit Trainer</h5>
 
 
-                      <a class="dropdown-item" href="Memberslogin.html">Apply For Accredit Trainer
+                      <a class="dropdown-item" href="became_a_accredited_trainer.html">Apply For Accredit Trainer
                       </a>
                       <h6 class="  text-start ps-lg-1 fw-bold pt-4  ">Associate Membership</h5>
 
-                        <a class="dropdown-item" href="cahrm-certified-associate-in-human-resource-management.html">Technology Management
+                        <a class="dropdown-item" href="IndApp_Association.html">
+                          Association Membership
                         </a>
 
                   </div>
@@ -388,16 +399,16 @@ document.addEventListener("DOMContentLoaded", function () {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Certificationss
+              Certifications
             </a>
-            <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
+            <ul class="dropdown-menu   px-3 py-4   ">
               <h4 class="px-1 py-3 fw-bold fs-3"><i
                   class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
-              <div class="container-fluid d-flex flex-row justify-content-around m-0 p-0">
+              <div class="container-fluid  flex-column justify-content-around m-0 p-0">
 
                 <!--  Cybron Associate Certificationss  -->
-                <div class="col-lg-3 col-md-6 border_right me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h5>
+                <div class="col-10 py-2 col-md-6  me-2">
+                  <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h6>
                     <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
                       Certified Human Resource
                       Management <br> Professional</a>
@@ -412,7 +423,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </div>
                 <!--  Cybron Security Professional  -->
-                <div class="col-lg-3 col-md-6 border_right me-2">
+                <div class="col-10  py-2  col-md-6  me-2">
                   <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
 
 
@@ -428,7 +439,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </div>
                 <!--  Cybron Scout Certificationss  -->
-                <div class="col-lg-3  col-md-6 m-0 border_right me-2">
+                <div class="col-10   py-2  col-md-6 m-0  me-2">
                   <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
 
                   <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
@@ -439,7 +450,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <!--  Cybron Network  -->
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-10  py-2  col-md-6">
 
                   <h6 class="  text-start ps-lg-1 fw-bold   ">Internal Audit</h5>
 
@@ -465,9 +476,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="Chapters-Partnerships.html">Authorized
                   Chapters</a></li>
-              <li><a class="dropdown-item" href="ApplyForChapters.html">Apply For
+              <li><a class="dropdown-item" href="Apply-For-Chapters.html">Apply For
                   Chapters</a></li>
-              <li><a class="dropdown-item" href="ChaptersPorta.html">Chapters
+              <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
                   Portal</a></li>
               <li><a class="dropdown-item" href="ChapterPresidentProfile.html">Chapters
                   President Profile</a></li>
@@ -501,10 +512,10 @@ document.addEventListener("DOMContentLoaded", function () {
             </a>
             <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
               <h4 class="px-1 py-3 fw-bold fs-3 ">Membership</h4>
-              <div class="container d-flex flex-row  m-0 p-0">
+              <div class="container d-flex flex-column  m-0 p-0">
 
                 <!--  JOIN IMRTC START -->
-                <div class="col-lg-4 col-md-6 border_right me-2">
+                <div class="col-lg-4 col-md-6  me-2">
                   <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h5>
                     <li><a class="dropdown-item" href="Membership.html">Student Membership [FREE]</a></li>
                     <li><a class="dropdown-item" href="Memberslogin.html">Researchers Membership [FREE]</a></li>
@@ -518,7 +529,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <!--  JOIN IMRTC END -->
 
                 <!--  BENEFIT OF MEMBERSHIP START  -->
-                <div class="col-lg-4 col-md-6 border_right me-2">
+                <div class="col-lg-4 col-md-6  me-2">
                   <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Benefit</h5>
 
 
@@ -529,7 +540,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <!--  BENEFIT OF MEMBERSHIP END  -->
 
                 <!--  BECOME AN ACCREDIT TRAINER START  -->
-                <div class="col-lg-4 col-md-6 border_right me-2">
+                <div class="col-lg-4 col-md-6  me-2">
                   <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredit Trainer</h5>
 
 
@@ -622,7 +633,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <!-- =TOP TO SCROLL BUTTON END = -->
 
 </header>
-<!--   HEADER END  -->
+<!--   HEADER END  --> 
             `;
         }
 

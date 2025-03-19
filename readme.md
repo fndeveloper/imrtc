@@ -90,3 +90,25 @@
 
 </html>
         <!--  CONTENT FOR FILES END  -->
+
+
+
+
+
+
+
+
+
+
+
+===== Update OF 3/18/25 (Tuesday) =====
+
+#) Create A Major Service Page of Journal & Service
+
+. All IMRTC Offered Following Services Card Is Created Which Is 12
+. All 12 Cards Have a Single page 
+. All 12 Single Page Is Created And Redirect From Card View More Button
+
+
+#) Live Demo : https://fasihnasirimrtc.netlify.app/services
+#) Code Link : https://github.com/fndeveloper/imrtc

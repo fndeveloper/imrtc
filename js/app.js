@@ -322,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
                     Paper Review, Evaluation &
                     Appraisals</a></li>
-                <li><a class="dropdown-item" href="Certificationss.html">Curriculum
+                <li><a class="dropdown-item" href="Certifications.html">Curriculum
                     Endorsements & Certificationss</a></li>
              
                 <li><a class="dropdown-item" href="Publication.html">Publications
@@ -577,7 +577,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
                   Paper Review, Evaluation &
                   Appraisals</a></li>
-              <li><a class="dropdown-item" href="Certificationss.html">Curriculum
+              <li><a class="dropdown-item" href="Certifications.html">Curriculum
                   Endorsements & Certificationss</a></li>
            
               <li><a class="dropdown-item" href="Publication.html">Publications

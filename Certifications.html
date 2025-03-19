@@ -18,20 +18,339 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ======================== intl-tel-input CSS== ====================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
+
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-huZg9bUGuv6QJrfNkO1+pyoaOeOS6pMcb5/JPRtrWsyUZwaF9v+oERyURy7GA+ST"
-  crossorigin="anonymous"></script>
+  <!-- ======================  MAIN 1 START   ====================== -->
+  <main class="m-0 p-0">
+    <!-- ====================== HERO SECTION START ====================== -->
+    <div class="hero_section   d-flex flex-column align-items-center justify-content-center position-relative ">
+      <!-- ====================== BANNER-IMAGE START ====================== -->
+      <img src="assets/img/banner-image/service_banner.jpg"
+        class=" img-fluid position-absolute m-0 h-100 w-100 obj-fit hero_banner_img" alt="">
+      <!-- ====================== BANNER-IMAGE END ====================== -->
+      <!-- ====================== CONTENT DIV START ====================== -->
+      <div
+        class=" d-flex flex-column align-items-center  justify-content-center position-absolute w-100 h-100 opacit_500 ">
+        <h2 class="text-white display-4 fw-bolder text-center ">Journal & Service</h2>
+        <h5 class="text-white p-2  text-center">Curriculum Endorsements & Certifications</h5>
+      </div>
+      <!-- ====================== CONTENT DIV END ====================== -->
+      <!-- ====================== BOTTOM DIV START ====================== -->
+      <div class="d-flex  flex-wrap    bottom_div_hero  container-fluid justify-content-around">
+        <div class="col-lg-3 col-5 my-1">
+          <div class="col-lg-11  col-12 p-2  text-start">
 
-  <!--  SWIPER CDN  -->
+            <h5 class="lh-1 fw-lighter pt-1">
+              Experience
+            </h5>
+            <p class="lh-1 fw-lighter"> No Required</p>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-5 my-1 ">
+          <div class="col-lg-11 col-12 p-2 text-start fw-lighter">
+
+            <h5 class="lh-1 fw-lighter">
+              Exam length
+            </h5>
+            <p class="lh-1 fw-lighter">150 questions</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-5 my-1">
+          <div class="col-lg-11 col-12 p-2 text-start">
+
+            <h5 class="lh-1 fw-lighter">
+              Exam-time
+            </h5>
+            <p class="lh-1 fw-lighter">180 minutes</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-5 my-1">
+          <div class="col-lg-11 col-12 p-2  text-start">
+
+            <h5 class="lh-1 fw-lighter">
+              Languages
+            </h5>
+            <p class="lh-1 fw-lighter ">8</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====================== BOTTOM DIV END ====================== -->
+    </div>
+    <!-- ====================== HERO SECTION END ====================== -->
+    <!-- ======================   ====================== -->
+
+  </main>
+  <!-- ====================== MAIN 1 END ====================== -->
+
+  <!-- ====================== MAIN 2 START ====================== -->
+
+  <main>
+    <div class="container-fluid  d-flex flex-lg-row flex-column my-5">
+      <!-- ====================== DIV 1 START ====================== -->
+      <div class=" col-lg-3 col-sm-12 col-md-3 col-12 d-flex flex-row  bg ">
+        <div class="col-12 my-3 position_sticky  ">
+
+          <!-- ====================== =================== TOPIC DIV START =================== ====================== -->
+          <div id="simple-list-example"
+            class="content-box bg-white  mx-auto col-11 my-2  pt-2 d-flex flex-column simple-list-example-scrollspy "
+            data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="10">
+            <h5 class="col-11 mx-auto text-center bg-white col-org p-2 rounded-2">Table of Contents</h5>
+            <ul class="list-unstyled knowledge_area_dropdown col-11 mx-auto">
+              <li><a class="nav-link " href="#simple-list-item-0">CERTIFICATIONS</a></li>
+              <li><a class="nav-link" href="#simple-list-item-1">SUMMARY</a></li>
+              <li><a class="nav-link" href="#simple-list-item-2"> FRAMEWORK</a></li>
+              <li><a class="nav-link" href="#simple-list-item-3">PROGRAM CERTIFICATIONS</a></li>
+              <li><a class="nav-link" href="#simple-list-item-4">CURRICULUM</a></li>
+              <li><a class="nav-link" href="#simple-list-item-5"> SYLLABUS</a></li>
+
+            </ul>
+          </div>
+          <!-- =========================================  TOPIC DIV END =================== ====================== -->
+          <!-- ========================================== SEARCH BTN START===== ====================== -->
+          <div class="row justify-content-center">
+            <div class="col-11">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+                  aria-describedby="button-addon2">
+                <button class="btn bg text-white border border-1 rounded-2 " type="button" id="button-addon2"><i
+                    class="fas fa-search fs-6"></i></button>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ========================================= SEARCH BTN END======== ====================== -->
+          <!-- ====================== SWIPER START ====================== -->
+          <div class="col-11 mx-auto my-3">
+            <swiper-container class="mySwiper col-12 bg-white rounded-2  p-2" pagination="false" autoplay-delay="3500">
+
+              <swiper-slide role="group" class="col-lg-12">
+
+                <div class="col-lg-12  col-md-8 bg-white  ">
+
+                  <p class="col-text  fs-6 fw-normal fw-normal">
+                    <i class="fa-solid fa-quote-left col-org fs-1 pb-2"></i> <br>
+                    Very well thought out and articulate communication. Clear
+                    milestones, deadlines and fast work.
+                    Patience. Infinite patience. No shortcuts. Even if the client
+                    is being careless. The best part...always
+                    solving problems with great original ideas! <br> <i
+                      class="fa-solid fa-quote-right col-org fs-1 pt-2 float-end  float-end"></i>
+                  </p>
+                  <div class="d-flex flex-row">
+
+
+                  </div>
+                </div>
+
+              </swiper-slide>
+              <swiper-slide role="group" aria-label="2 / 3" class="swiper-slide-prev col-lg-12">
+
+                <div class="col-lg-12  col-md-8 bg-white  ">
+
+                  <p class="col-text  fs-6 fw-normal">
+                    <i class="fa-solid fa-quote-left col-org fs-1 pb-2"></i> <br>Very well thought out and articulate
+                    communication. Clear
+                    milestones, deadlines and fast work.
+                    Patience. Infinite patience. No shortcuts. Even if the client
+                    is being careless. The best part...always
+                    solving problems with great original ideas! <br> <i
+                      class="fa-solid fa-quote-right col-org fs-1 pt-2 float-end"></i>
+                  </p>
+                  <div class="d-flex flex-row">
+
+
+                  </div>
+                </div>
+
+              </swiper-slide>
+              <swiper-slide role="group" aria-label="3 / 3" class="swiper-slide-active col-lg-12">
+                <div class="col-lg-12  col-md-8 bg-white  ">
+
+                  <p class="col-text  fw-normal">
+                    <i class="fa-solid fa-quote-left col-org fs-1 pb-2"></i> <br>Very well thought out and articulate
+                    communication. Clear
+                    milestones, deadlines and fast work.
+                    Patience. Infinite patience. No shortcuts. Even if the client
+                    is being careless. The best part...always
+                    solving problems with great original ideas! <br> <i
+                      class="fa-solid fa-quote-right col-org fs-1 pt-2 float-end"></i>
+                  </p>
+                  <div class="d-flex flex-row">
+
+
+                  </div>
+                </div>
+
+              </swiper-slide>
+
+            </swiper-container>
+          </div>
+          <!-- ====================== SWIPER END ====================== -->
+          <!-- =========================================  INQUIRE DIV END =================== ====================== -->
+
+          <div class="col-lg-12 mt-5 my-3 ">
+            <form class="form_reg bg-white col-11 p-2 mx-auto rounded-2">
+              <h5 class="p-2 text-center">Inquire About Course</h5>
+              <!-- ====================== Name input ====================== -->
+              <div class="my-3  ">
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+
+              <!-- ====================== Email input ====================== -->
+              <div class="my-3">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+
+              <!-- ====================== Cell Number input ====================== -->
+              <div class="my-3">
+                <input id="phone" type="tel" value="+447733312345" class="form-control">
+              </div>
+              <!-- ======================  ====================== -->
+
+
+
+              <!-- ======================  ====================== -->
+              <div class="my-3 d-flex flex-row justify-content-center">
+                <button class="btn1 p-2 px-5 fs-6 border border-2 mx-auto">Submit
+                  <a href="index.html" class="btn1-span d-flex flex-row align-items-center justify-content-center">
+                    <i class="fa-solid fa-paper-plane "></i>
+                  </a>
+                </button>
+              </div>
+
+            </form>
+          </div>
+          <!-- ========================================= INQUIRE DIV END =================== ====================== -->
+
+        </div>
+
+      </div>
+      <!-- ====================== DIV 1 END ====================== -->
+      <!-- ====================== DIV 2 START ====================== -->
+
+      <div class="col-lg-9  pt-lg-0 pt-5 col-sm-12 col-md-9 text_justify_all scrollspy-example" data-bs-spy="scroll"
+        data-bs-target="#simple-list-example" data-bs-smooth-scroll="true" tabindex="0">
+        <div class="col-lg-11 col-12 ps-lg-4  text_justify_all">
+          <!-- ============================== HEADING======= ====================== -->
+          <h2 class="display-6  fw-normal text-start lh-1 col-org " id="simple-list-item-0">
+            Curriculum Endorsements & Certifications
+          </h2>
+          <!-- ============================== HEADING======= ====================== -->
+          <div id="simple-list-item-0">
+            <p class="py-1">
+              Apart from IMRTC USA certification curricula if any educational and professional training institute is interested in getting an international recognition for their own curricula and certifications, they can submit their program design to IMRTC Curricula Committee for approval. This must include title page that identifies the institution, name of program and certification level, date submitted, and catalog URL if available. If this program is governed by a particular regulation, the regulation number should be included on the title page.
+
+  
+            </p>
+         
+          </div>
+          <!-- ============================== About============================= ====================== -->
+          <div class=" section_single_cert py-2" id="simple-list-item-1">
+            <h2 class="col-org mar_top">Executive Summary</h2>
+           <p class="py-1">This summary must be limited to one page, It should include: theme of the program, brief description of admission and exit requirements, unique features of the program including mode(s) of delivery, and rationale for the implementation of the program.</p>
+          </div>
+
+          <!-- ============================== About======= ====================== -->
+
+          <!-- ==============================Student Memberships Start======= ====================== -->
+
+          <div id="simple-list-item-2">
+            <h2 class="col-org mar_top">Conceptual Framework</h2>
+
+          <p class="py-1">
+            This portion of the document should demonstrate the relationship between the proposed endorsement program and the market needs. It must be limited to one or two paragraphs in length.
+
+
+          </p>
+          </div>
+          <!-- ==============================Student Memberships  End======= ====================== -->
+          <!-- ============================== >Association Memberships  Start ======= ====================== -->
+
+          <div id="simple-list-item-3">
+            <h2 class="col-org mar_top">Required Program Experiences Components</h2>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> The Application must describe the courses and experiences that clearly indicate subject and pedagogical knowledge of the curriculum.
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Describe/Demonstrate standards to be followed.
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Describe how the Standards are integrated and assessed throughout the program.
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Describe how trainers and teachers are prepared to integrate and assess the Standards in their teaching.
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Program Faculty: List Qualifications: highest degree, field of study, and degree-granting institution; teaching assignments, teaching experience, and certification(s) held; and relationship (full-time, part-time, etc.) to the institution, unit, and program.
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Submit a faculty matrix online (this needs to be developed).
+              </li>
+          </ul>
+          
+          </div>
+
+          <div id="simple-list-item-4">
+            <h2 class="col-org mar_top"> Curriculum </h2>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Admission criteria
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Required coursework and experiences
+              </li>
+              <li class="d-flex align-items-center">
+                  <i class="fas fa-check col-org me-2"></i> Program exit requirements
+              </li>
+          </ul>
+          
+          </div>
+          <div id="simple-list-item-5">
+            <h2 class="col-org mar_top">Syllabus</h2>
+
+          <p class="py-1">
+            Complete syllabi for all courses in the endorsement program must be included.
+
+Complete syllabi for all courses in the endorsement program must be included.
+
+The program document must identify the mode of delivery and any off-campus sites that will be used for any/all of this program.
+
+If you think that you are eligile to meet the above requirement then you can email us partnerships@imrtc.org or subscribe as a partner through your local Chapter.
+          </p>
+          <button class="btn1 p-2 px-5 fs-6">Endorsed 
+            courses from IMRTC USA with Co-branded Certifications
+            <a href="imrtc-certifications.html" class="btn1-span d-flex flex-row align-items-center justify-content-center">
+            <i class="fa-solid fa-paper-plane "></i>
+            </a>
+            </button>  
+          </div>
+        
+          <!-- ==============================  >Association Memberships  End======= ====================== -->
+
+
+        </div>
+      </div>
+      <!-- ====================== DIV 2 END ====================== -->
+
+
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- ====================== SWIPER CDN   ====================== -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-  <!--  EXTERNEL FILE JS  -->
+  <!-- ====================== DIAL COUNTRY CODE ====================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+  <!-- ====================== EXTERNEL FILE JS   ====================== -->
   <script src="js/app.js"></script>
-  <!--  EXTERNEL FILE JS  -->
+  <!-- ====================== EXTERNEL FILE JS   ====================== -->
 
 </body>
 
 </html>
-        <!--  CONTENT FOR FILES END  -->

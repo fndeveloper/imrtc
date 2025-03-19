@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-  <!--  Required meta tags   ================================== -->
+  <!--  Required meta tags  -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--  TITLE   -->
-  <title>International Management Research &amp; Technology Consortium - IMRTC - USA</title>
+  <title>International Management Research &amp; Technology Consortium 
+    - IMRTC - USA</title>
+
   <!--  FAVICON  -->
   <link rel="shortcut icon" href="assets/img/logo/logo.jpg" type="image/x-icon">
   <!-- BOOTSTRAP CSS  -->
@@ -17,20 +19,123 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-huZg9bUGuv6QJrfNkO1+pyoaOeOS6pMcb5/JPRtrWsyUZwaF9v+oERyURy7GA+ST"
-  crossorigin="anonymous"></script>
+  <!-- ======================  MAIN 1 START   ====================== -->
+  <main class="m-0 p-0">
+    <!-- ====================== HERO SECTION START ====================== -->
+    <div class="hero_section   d-flex flex-column align-items-center justify-content-center position-relative ">
+      <!-- ====================== BANNER-IMAGE START ====================== -->
+      <img src="assets/img/banner-image/memberlist_banner.jpg"
+        class=" img-fluid position-absolute m-0 h-100 w-100 obj-fit hero_banner_img" alt="">
+      <!-- ====================== BANNER-IMAGE END ====================== -->
+      <!-- ====================== CONTENT DIV START ====================== -->
+      <div
+        class=" d-flex flex-column align-items-center  justify-content-center position-absolute w-100 h-100 opacit_500 ">
+        <h2 class="text-white display-4 fw-bolder text-center ">Memberlist</h2>
+        <h5 class="text-white p-2  text-center">Advisors,
+          Researchers,<br> Referees, Professors,
+          Trainers</h5>
+      </div>
+      <!-- ====================== CONTENT DIV END ====================== -->
 
-  <!--  SWIPER CDN  -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-  <!--  EXTERNEL FILE JS  -->
-  <script src="js/app.js"></script>
-  <!--  EXTERNEL FILE JS  -->
+    </div>
+    <!-- ====================== HERO SECTION END ====================== -->
+    <!-- ======================   ====================== -->
+
+  </main>
+  <!-- ====================== MAIN 1 END ====================== -->
+  <!-- MAIN 2 START -->
+  
+  
+<main>
+  <h2 class=" mt-2 text-center lh-1 py-4  display-6">Advisors, Researchers, Referees, <br> Professors, Trainers</h2>
+    <div class="container-fluid mx-auto col-11 bg my-3 p-3">
+        <table id="myTable" class="container-fluid chapter_table table table-bordered overflow_scroll_chapter_table">
+            <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Degree</th>
+                  <th>Designation</th>
+                  <th>Profile</th>
+                  <th>Reg Field</th>
+                  <th>Country</th>
+                  <th>Partner ID</th>
+                  <th>Chapter ID</th>
+                </tr>
+            </thead>
+            <tbody>
+              <!-- IF YOU WANT TO ADD MORE DATA JUST ADD TR MORE  -->
+              <tr>
+                  <td>1</td>
+                  <td>
+                      <img src="https://www.imrtc.org/R_Pics/Mypic.jpg" alt="Dr. Muhammad Shaheer Waqar" class="img-fluid rounded" style="max-width: 80px; height: auto;">
+                  </td>
+                  <td>DR. MUHAMMAD SHAHEER WAQAR</td>
+                  <td>PhD (Artificial Intelligence)</td>
+                  <td>President of 3D Group</td>
+                  <td>
+                      Professionally Engaged for 20 Years in the field of Information Technology and Management, where more than 1500 Projects successfully completed in Europe, Middle East, and Pakistan. Further, almost 50,000 Candidates have been trained as a trainer of PMP - Project Management, CISA, CISSP, ITIL, Enterprise Project Management Primavera P6, Networking & Hardware.  
+                      Involved as a business architect solution provider with private and public organizations.  
+                      Also part of various research and development organizations, facilitating as a research adviser for PhD and MS Students, guiding them in publishing their research papers.  
+                      Now, IMRTC has designated me as ASIA Chapter President to lead research, training, and development initiatives.
+                  </td>
+                  <td>Technology Management</td>
+                  <td>Pakistan</td>
+                  <td>AS5588322_Pakistan</td>
+                  <td>AS2933770</td>
+              </tr>
+              <!-- IF YOU WANT TO ADD MORE DATA JUST ADD TR MORE -->
+              <tr>
+                <td>2</td>
+                <td>
+                    <img src="https://www.imrtc.org/R_Pics/photo8.JPG" alt="Abhishek Kumar Yadav" class="img-fluid rounded" style="max-width: 80px; height: auto;">
+                </td>
+                <td>ABHISHEK KUMAR YADAV</td>
+                <td>M.COM</td>
+                <td>Research Scholar</td>
+                <td>
+                    B.COM (Hons) from BHU, M.COM from BHU, PhD from University of Delhi.
+                </td>
+                <td>Management</td>
+                <td>India</td>
+                <td>NA2315646_United States</td>
+                <td>NA3355647</td>
+            </tr>
+            
+              <!--IF YOU WANT TO ADD MORE DATA JUST ADD TR MORE  -->
+          </tbody>
+        </table>
+    
+</div>
+</main>
+
+   <!-- MAIN 2 END -->
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- Bootstrap 5 Bundle (Includes Popper.js) -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+   <!-- Swiper.js -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+   
+   <!-- International Telephone Input -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+   
+   <!-- DataTables JS -->
+   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+   
+   <!-- External JS File (Your custom scripts) -->
+   <script src="js/app.js"></script>
+
 
 </body>
 
 </html>
-        <!--  CONTENT FOR FILES END  -->

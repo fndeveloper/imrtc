@@ -74,6 +74,13 @@ font-weight: 400 !important;
   top: 2%;
   position: sticky !important;
 }
+.position_sticky_inp{
+  max-height:  max-content;
+  height: auto !important;
+  bottom: 2%;
+  /* background-color: var(--accent-color); */
+  position: sticky !important;
+}
 .simple-list-example-scrollspy li a.active {
 box-shadow: none !important;
 font-weight: 500;
@@ -134,6 +141,21 @@ margin: 5px 0px;
 color: var(--accent-color) !important;
   background-color: white !important;
 }
+.text-truncate-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow:initial;
+}
+
+.blog_cards_img{
+  height: 40vh;
+  background-size: cover;
+  object-fit: cover;
+}
+.card_of_blog { display: block; }
 .dataTables_paginate {
   text-align: center;
   margin-top: 10px;
@@ -143,7 +165,9 @@ color: var(--accent-color) !important;
   color: white !important; /* Change text color to white */
   font-weight: bold; /* Optional: Make text bold */
 }
-
+.pos{
+  top: 14%;
+}
 .dataTables_paginate .paginate_button {
   padding: 6px 12px;
   margin: 2px;

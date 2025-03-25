@@ -655,7 +655,11 @@ window.intlTelInput(input, {
 });
 }
 // ================================ DIAL COUNTRY CODE END ================================
+var tab=document.querySelector("#myTable")
+if(tab) {
 $(document).ready(function () {
+
+  
   // Initialize DataTable
   var table = $('#myTable').DataTable({
     "paging": true,      // Enable pagination
@@ -672,5 +676,20 @@ $(document).ready(function () {
     table.search(this.value).draw();
 });
 });
+}
 
+// BLOG SEARCH HERE
+document.getElementById("search_blog").addEventListener("input", () => {
+  let searchValue = document.getElementById("search_blog").value.toLowerCase();
+  let cards = document.querySelectorAll(".card_of_blog");
 
+  cards.forEach(card => {
+      let title = card.querySelector(".card_title_blog").innerText.toLowerCase();
+      if (title.includes(searchValue)) {
+          card.style.display = "block";
+      } else {
+          card.style.display = "none";
+          cards.innerHTML="Blog Not Found"
+      }
+  });
+});

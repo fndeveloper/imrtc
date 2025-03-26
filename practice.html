@@ -3,66 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Search Filter</title>
+    <title>Search Filter</title>
     <style>
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+        #links-container a {
+            display: block;
+            margin: 5px 0;
         }
-        .card {
-            width: 18rem;
-            border: 1px solid #ccc;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .hidden {
+        #notFound {
             display: none;
+            color: red;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <input type="text" id="search_blog" placeholder="Search Blog Here">
-    <div class="container">
-        <div class="card" data-title="cahrm">
-            <h5 class="card-title">cahrm</h5>
-            <p>Some quick example text about cahrm.</p>
-        </div>
-        <div class="card" data-title="camp">
-            <h5 class="card-title">camp</h5>
-            <p>Some quick example text about camp.</p>
-        </div>
-        <div class="card" data-title="travel">
-            <h5 class="card-title">travel</h5>
-            <p>Some quick example text about travel.</p>
-        </div>
-        <div class="card" data-title="food">
-            <h5 class="card-title">food</h5>
-            <p>Some quick example text about food.</p>
-        </div>
-        <div class="card" data-title="fitness">
-            <h5 class="card-title">fitness</h5>
-            <p>Some quick example text about fitness.</p>
-        </div>
+
+    <input type="text" placeholder="Search.." id="search_blog" class="form-control">
+    <p id="notFound">Blog Not Found</p>
+
+    <div id="links-container">
+        <a href="#about">About</a>
+        <a href="#base">Base</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#custom">Custom</a>
+        <a href="#support">Support</a>
+        <a href="#tools">Tools</a>
     </div>
+
     <script>
-        document.getElementById("search_blog").addEventListener("input", function () {
-            let searchValue = this.value.toLowerCase();
-            let cards = document.querySelectorAll(".card");
-            
-            cards.forEach(card => {
-                let title = card.getAttribute("data-title").toLowerCase();
-            
-               
-                
-                if (title.includes(searchValue)) {
-                    card.classList.remove("hidden");
+        document.getElementById("search_blog").addEventListener("input", () => {
+            let searchValue = document.getElementById("search_blog").value.toLowerCase();
+            let links = document.querySelectorAll("#links-container a");
+            let found = false;
+
+            links.forEach(link => {
+                if (link.innerText.toLowerCase().includes(searchValue)) {
+                    link.style.display = "block";
+                    found = true;
                 } else {
-                    card.classList.add("hidden");
+                    link.style.display = "none";
                 }
             });
+
+            // Show "Blog Not Found" if no match is found
+            document.getElementById("notFound").style.display = found ? "none" : "block";
         });
     </script>
+
 </body>
 </html>

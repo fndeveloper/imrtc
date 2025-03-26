@@ -35,6 +35,9 @@ body{
   .top_2{
 padding: 10px 0px;
 }
+.bgc{
+  background-color: var(--accent-color) !important;
+}
 .overflow_scroll_chapter_table {
   display: block;
   overflow-y: auto; }

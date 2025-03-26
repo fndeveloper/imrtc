@@ -31,13 +31,20 @@ body{
 .bg{
     background-color: var(--accent-color);
 }
+
+.training_event_detail_table  th{
+  color: white;
+   background-color: var(--accent-color) !important;
+}
+
+.training_event_detail_table  td{
+ font-weight: 400 !important;
+ font-size: 13px;
+}
 @media (max-width:992px) {
   .top_2{
-padding: 10px 0px;
-}
-.bgc{
-  background-color: var(--accent-color) !important;
-}
+    padding: 10px 0px;
+  }
 .overflow_scroll_chapter_table {
   display: block;
   overflow-y: auto; }

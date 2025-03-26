@@ -679,9 +679,12 @@ $(document).ready(function () {
 }
 
 // BLOG SEARCH HERE
-document.getElementById("search_blog").addEventListener("input", () => {
+var search_blog=document.getElementById("search_blog")
+if(search_blog)
+search_blog.addEventListener("input", () => {
   let searchValue = document.getElementById("search_blog").value.toLowerCase();
-  let cards = document.querySelectorAll(".card_of_blog");
+  var cards = document.querySelectorAll(".card_of_blog");
+  if(cards){
 
   cards.forEach(card => {
       let title = card.querySelector(".card_title_blog").innerText.toLowerCase();
@@ -692,4 +695,31 @@ document.getElementById("search_blog").addEventListener("input", () => {
           cards.innerHTML="Blog Not Found"
       }
   });
+}
 });
+
+// training_event_card_header START
+document.getElementById("search_training_event_card").addEventListener("input",()=>{
+  var training_event_card_header=document.querySelectorAll(".training_event_cards")
+  var search_training_event_card=document.getElementById("search_training_event_card").value.toLowerCase()
+
+  
+
+  training_event_card_header.forEach(edf=>{
+// console.log(edf);
+
+    var title=edf.querySelector(".training_event_card_header").textContent.toLowerCase()
+    // var title = edf.querySelector(".training_event_card_header").textContent.toLowerCase().trim();
+        
+   
+    if(title.includes(search_training_event_card)){
+     edf.style.display = "block";
+  
+    }
+    else{
+  // console.log("e");
+  edf.style.display = "none";
+    }
+  })
+})
+// training_event_card_header END

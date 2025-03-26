@@ -31,7 +31,9 @@ body{
 .bg{
     background-color: var(--accent-color);
 }
-
+.display_block{
+  display: block;
+}
 .training_event_detail_table  th{
   color: white;
    background-color: var(--accent-color) !important;

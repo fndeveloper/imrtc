@@ -289,6 +289,25 @@ color: white;
     background-color: var(--accent-color) !important;
     color: white !important;
 }
+.contact_side_picture{
+height: 115% !important;
+  object-fit: cover;
+  background-size: cover;
+}
+.contact_side_Div_1>ul>li{
+  background-color: rgba(41, 41, 41, 0.157);
+  backdrop-filter: blur(20px);
+  color: rgb(255, 255, 255) !important;
+  left: 0%;
+  border: 1px solid rgba(211, 207, 207, 0.319);
+}
+
+.contact_side_Div_1>ul{
+  /* background-color: rgba(255, 255, 255, 0.452); */
+  /* backdrop-filter: blur(40px); */
+  left:  -20px !important;
+  position: absolute;
+}
 .fixed-nav{
   position: fixed;
   z-index: 2;

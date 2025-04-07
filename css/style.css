@@ -300,7 +300,12 @@ height:100%  !important;
   color: rgb(255, 255, 255) !important;
   left: 0%;
 }
-
+.apply_now_btn{
+  position: sticky !important;
+  bottom: 2%;
+  /* width: 40%; */
+  background-color: var(--accent-color);
+}
 .contact_side_Div_1>ul{
   /* background-color: rgba(255, 255, 255, 0.452); */
   /* backdrop-filter: blur(40px); */

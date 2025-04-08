@@ -134,6 +134,10 @@ thead{
 
   background-color: var(--accent-color);
 }
+.table  > thead > tr {
+  color: white;
+  background-color: var(--accent-color) !important;
+}
 
 .chapter_table th,
 .chapter_table td {

@@ -106,17 +106,17 @@ text-decoration: none !important;
  a:focus{
   color: #000000 !important;  /* Fixed dark gray color */
 }
-thead>tr>th{
 
-  font-weight: 300 !important;
-}
     
 .accordion-button::after {          
   font-weight: bolder;
   z-index: -1;
    filter: invert(1); /* White color effect */
 }
-
+.scrollspy-example thead{
+  background-color: var(--accent-color);
+  color: white ;
+}
 .accordion-button{
   z-index: 1;
   border: none !important;
@@ -128,15 +128,15 @@ td{
   text-align: start !important;
   border: 1px solid #0000002d;
 }
-thead{
+.scrollspy-example .table  thead tr th {
   color: white;
-  text-align: start !important;
-
-  background-color: var(--accent-color);
-}
-.table  > thead > tr {
-  color: white;
+  font-weight: 300;
   background-color: var(--accent-color) !important;
+}
+.scrollspy-example .table{
+  font-weight: 300;
+  line-height: 1.3;
+  
 }
 
 .chapter_table th,
@@ -513,9 +513,6 @@ top: -16%;
   color:white !important;
 }
 
-thead {
-  background-color: #000000 !important;
-}
 .promo-item{
   max-height: max-content !important;
 

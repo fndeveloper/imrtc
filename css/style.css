@@ -138,6 +138,26 @@ td{
   line-height: 1.3;
   
 }
+/* Make each section scroll into the center of the viewport */
+.section_single_cert,
+.scrollspy-example > div[id^="simple-list-item"] {
+  scroll-margin-top: 25vh; /* Adjust to center better depending on layout */
+}
+.scrollspy-example {
+  scroll-padding-top: 25vh;
+}
+/* CSS to center scrollspy target section */
+.section_single_cert {
+  scroll-margin-top: 30vh !important; /* You can adjust 30vh to center more/less */
+}
+
+.scrollspy-example {
+  scroll-padding-top: 30vh !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 .chapter_table th,

@@ -121,3 +121,24 @@ abc.addEventListener("input",()=>{
   })
 })
 // training_event_card_header END
+document.querySelectorAll('.knowledge_area_dropdown  .nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        console.log(e);
+        
+      e.preventDefault();
+      
+      const target = document.querySelector(this.getAttribute('href'));
+      const targetOffset = target.offsetTop;
+      const targetHeight = target.offsetHeight;
+      const viewportHeight = window.innerHeight;
+      
+      // Calculate scroll position to center the element in the viewport
+      const scrollPosition = targetOffset - (viewportHeight / 2) + (targetHeight / 2);
+      
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+      });
+    });
+  });
+  

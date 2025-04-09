@@ -336,8 +336,8 @@ border: 1px solid rgb(196, 195, 195);
 }
 
 .offcanvas{
-  width: 75% !important; 
-  transition: 0.9s ease-in-out !important;
+  width: 85% !important; 
+  transition: 1.2s ease-in-out !important;
 }
 
 .navbar-nav .dropdown-menu{

@@ -83,7 +83,7 @@ font-weight: 400 !important;
 .position_sticky{
   max-height:  max-content;
   height: auto !important;
-  top: 2%;
+  top: 9%;
   position: sticky !important;
 }
 .position_sticky_inp{

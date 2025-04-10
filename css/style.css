@@ -158,8 +158,17 @@ td{
 html {
   scroll-behavior: smooth;
 }
-
-
+@media (max-width:992px) {
+  .offcanvas h4 {
+display: none;
+    font-size: 14px !important;
+  }
+  .offcanvas .navbar-nav .dropdown:hover .dropdown-menu {
+    /* display: none !important; hover ka effect hata diya */
+    /* opacity: 0 !important; */
+  }
+  
+}
 .chapter_table th,
 .chapter_table td {
   border: 0.1px dotted #46454538 ;

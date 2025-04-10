@@ -1,131 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offcanvas with Tabs</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Navbar</title>
+<link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Awesome (For Back Icon) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-    <style>
-        .tab-content {
-            display: none;
-        }
-        .tab-content.active {
-            display: block;
-        }
-        .back-button {
-            cursor: pointer;
-            font-size: 18px;
-            margin-bottom: 10px;
-            display: none;
-        }
-    </style>
+  <!-- Font Awesome (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
 
-<!-- Offcanvas Trigger Button -->
-<button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
-    Open Menu
-</button>
+  <!-- ========== Offcanvas Trigger Button ========== -->
+  <button class="btn btn-primary m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+    aria-controls="offcanvasRight">
+    Open Mobile Menu
+  </button>
 
-<!-- Offcanvas -->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title">Menu</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-        
-        <!-- Back Button -->
-        <i class="fas fa-arrow-left back-button" id="backButton"></i>
-
-        <!-- Navigation Menu -->
-        <ul class="navbar-nav" id="navMenu">
-            <li class="nav-item">
-                <a class="nav-link" data-tab="certifications">Certifications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-tab="chapters">Chapters</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-tab="partners">Partners</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-tab="membership">Membership</a>
-            </li>
-        </ul>
-
-        <!-- Content Area -->
-        <div id="tabContent">
-            <div class="tab-content active" id="home">
-                <p>Welcome! Select a menu item.</p>
-            </div>
-
-            <div class="tab-content" id="certifications">
-                <h3>Certifications</h3>
-                <p>Certification details go here...</p>
-            </div>
-
-            <div class="tab-content" id="chapters">
-                <h3>Chapters</h3>
-                <p>Chapter details go here...</p>
-            </div>
-
-            <div class="tab-content" id="partners">
-                <h3>Partners</h3>
-                <p>Partner details go here...</p>
-            </div>
-
-            <div class="tab-content" id="membership">
-                <h3>Membership</h3>
-                <p>Membership details go here...</p>
-            </div>
+  <!-- ================= MOBILE NAVBAR START ================= -->
+<nav>
+    <div class=" offcanvas  offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">
+            <img src="assets/img/logo/logo-new.png" class="img-fluid" alt>
+          </h5>
+          <button type="button" class="btn-close text-reset float-end" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-    </div>
-</div>
+        <div class="offcanvas-body">
+          <div class="mt-5">
+            <ul class="navbar-nav  mx-auto d-flex justify-content-between">
+    
+              <!--   =================      Certificationss nav-link start  -->
+              <li class="nav-item dropdown">
+                <a class="dropdown-item  d-flex justify-content-between align-items-center dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Certifications
+                </a>
+                <ul class="dropdown-menu   px-3   ">
+                  <h4 class="px-1  fw-bold fs-3"><i
+                      class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
+                  <div class="container-fluid  flex-column justify-content-around m-0 p-0">
+    
+                    <!--  Cybron Associate Certificationss  -->
+                    <div class="col-10  col-md-6  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h6>
+                      <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
+                        Certified Human Resource
+                        Management <br> Professional</a>
+                      <a class="dropdown-item" href="camp-certified-administrative-management-professional.html">Certified
+                        Administrative
+                        Management <br> Professional</a>
+                      <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
+                        Technology Management <br> Professional</a>
+                      <a class="dropdown-item"
+                        href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
+                        Human Resource <br> Management</a>
+                    </div>
+    
+                    <!--  Cybron Security Professional  -->
+                    <div class="col-10    col-md-6  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h6>
+                      <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
+                        Six Sigma black <br>Belt</a>
+                      <a class="dropdown-item" href="certified-lean-six-sigma-green-belt-clssgb.html">Certified lean
+                        Six Sigma Green <br>Belt</a>
+                      <a class="dropdown-item" href="certified-lean-six-sigma-yellow-belt-clssyb.html">Certified lean
+                        Six Sigma Yellow<br>Belt
+                        Belt</a>
+                    </div>
+    
+                    <!--  Cybron Scout Certificationss  -->
+                    <div class="col-10     col-md-6 m-0  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
+                      <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
+                        Cyber Security Management <br>Professional</a>
+                      <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
+                        Technology Management <br>Professional</a>
+                    </div>
+    
+                    <!--  Cybron Network  -->
+                    <div class="col-10    col-md-6">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Internal Audit</h6>
+                      <a class="dropdown-item" href="diploma-in-internal-audit.html">Profesional Diploma In Internal
+                        <br> Audit</a>
+                    </div>
+                  </div>
+               
+                </ul>
+              </li>
+              <!--   =================      Certificationss nav-link end  -->
+    
+              <!-- ========== Chapters ========== -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Chapters
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Chapters-Partnerships.html">Authorized
+                      Chapters</a></li>
+                  <li><a class="dropdown-item" href="Apply-For-Chapters.html">Apply For
+                      Chapters</a></li>
+                  <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
+                      Portal</a></li>
+                  <li><a class="dropdown-item" href="ChapterPresidentProfile.html">Chapters
+                      President Profile</a></li>
+                </ul>
+              </li>
+    
+              <!-- ========== Partners ========== -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Partners
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="PartnerUnderChapters.html">Partners
+                      From Chapters</a></li>
+                  <li><a class="dropdown-item" href="Partner-Subscription.html">Apply
+                      For Partnerships</a></li>
+                  <li><a class="dropdown-item" href="PartnerPortal.html">Partner Portal
+                    </a></li>
+                </ul>
+              </li>
+    
+              <!-- ========== Membership ========== -->
+              <li class="nav-item dropdown position-relative">
+                <a class="nav-link dropdown-toggle" href role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Membership
+                </a>
+                <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
+                  <h4 class="px-1 py-3 fw-bold fs-3 ">Membership</h4>
+                  <div class="container d-flex flex-column  m-0 p-0">
+    
+                    <!-- JOIN IMRTC -->
+                    <div class="col-lg-4 col-md-6  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h6>
+                      <li><a class="dropdown-item" href="Membership.html">Student Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="Memberslogin.html">Researchers Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="IndApp_Association.html">Industry Partner Membership [Free]</a>
+                      </li>
+                      <li><a class="dropdown-item" href="IndApp_RTStudent.html">Trainer Membership [Free]</a></li>
+                    </div>
+    
+                    <!-- BENEFIT -->
+                    <div class="col-lg-4 col-md-6  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Benefit</h6>
+                      <a class="dropdown-item" href="Memberslogin.html">Benefit of IMRTC Membership</a>
+                    </div>
+    
+                    <!-- Accredited Trainer -->
+                    <div class="col-lg-4 col-md-6  me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredited Trainer</h6>
+                      <a class="dropdown-item" href="Memberslogin.html">Apply For Accredited Trainer
+                      </a>
+                      <h6 class="  text-start ps-lg-1 fw-bold pt-4  ">Associate Membership</h6>
+                      <a class="dropdown-item"
+                        href="cahrm-certified-associate-in-human-resource-management.html">Technology Management
+                      </a>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+    
+              <!-- Journal -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Journal & Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="services.html">Major
+                      Services</a></li>
+                  <li><a class="dropdown-item" href="wwra.html">Worldwide Research
+                      Activities</a></li>
+                  <li><a class="dropdown-item" href="TrainingDevelopment.html">Management
+                      & Technology Training &
+                      <br>Certificationss </a></li>
+                  <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
+                      Paper Review, Evaluation &
+                      Appraisals</a></li>
+                  <li><a class="dropdown-item" href="Certifications.html">Curriculum
+                      Endorsements & Certificationss</a></li>
+                  <li><a class="dropdown-item" href="Publication.html">Publications
+                      Journal & Magazines </a></li>
+                </ul>
+              </li>
+    
+              <!-- Members List -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Members List
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ARRPTL.html">Advisors,
+                      Researchers,<br> Referees, Professors,
+                      Trainers</a>
+                  </li>
+                  <li><a class="dropdown-item" href="Member_Ass_TM.html">Members -
+                      Technology <br> Management</a></li>
+                  <li><a class="dropdown-item" href="Member_Ass_AM.html">Members -
+                      Administrative <br> Management</a></li>
+                  <li><a class="dropdown-item" href="Member_PT.html">Members -
+                      Professional <br> Trainer</a></li>
+                  <li><a class="dropdown-item" href="Member_IP.html">Members - Gloabal
+                      Industry <br> Partners</a></li>
+                  <li><a class="dropdown-item" href="Member_Students.html">Members -
+                      Student</a></li>
+                </ul>
+              </li>
+    
+              <!-- Events -->
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="event.html">Events</a>
+              </li>
+    
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</nav>
+  <!-- ================= MOBILE NAVBAR END ================= -->
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const navLinks = document.querySelectorAll(".nav-link");
-        const tabContents = document.querySelectorAll(".tab-content");
-        const backButton = document.getElementById("backButton");
-        const navMenu = document.getElementById("navMenu");
-
-        navLinks.forEach(link => {
-            link.addEventListener("click", function () {
-                const targetTab = this.dataset.tab;
-
-                // Hide menu & show back button
-                navMenu.style.display = "none";
-                backButton.style.display = "block";
-
-                // Hide all content
-                tabContents.forEach(tab => tab.classList.remove("active"));
-
-                // Show selected tab content
-                document.getElementById(targetTab).classList.add("active");
-            });
-        });
-
-        backButton.addEventListener("click", function () {
-            // Show menu & hide back button
-            navMenu.style.display = "block";
-            backButton.style.display = "none";
-
-            // Hide all content and show home
-            tabContents.forEach(tab => tab.classList.remove("active"));
-            document.getElementById("home").classList.add("active");
-        });
-    });
-</script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

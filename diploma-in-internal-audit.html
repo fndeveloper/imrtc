@@ -18,74 +18,357 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- DataTables CSS -->
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-<!-- ======================== intl-tel-input CSS== ====================== -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <!-- ======================== intl-tel-input CSS== ====================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
 
 </head>
 
 <body>
 
-<!-- ================= HEADER START =================== -->
-<header class="header m-0 p-0  d-flex flex-column">
-  <!-- ============= TOP BAR 1 START =================== -->
-  <div class="container-fluid bg1 d-flex flex-lg-row flex-column align-items-center px-4 py-2">
-    <div class="col-lg-6 d-flex flex-row align-items-center">
-      <ul class="list-unstyled  d-flex flex-row justify-content-between">
-        <li class="mt-2  border_right_white px-2"><a href="about.html" class="text-white fs-6 top_bar_1_link ">About</a></li>
-        <li class="mt-2 border_right_white px-2"><a href="contact.html" class="text-white fs-6 top_bar_1_link ">Contact</a></li>
+  <!-- ================= HEADER START =================== -->
+  <header class="header m-0 p-0  d-flex flex-column">
+    <!-- ============= TOP BAR 1 START =================== -->
+    <div class="container-fluid bg1 d-flex flex-lg-row flex-column align-items-center px-4 py-2">
+      <div class="col-lg-6 d-flex flex-row align-items-center">
+        <ul class="list-unstyled  d-flex flex-row justify-content-between">
+          <li class="mt-2  border_right_white px-2"><a href="about.html"
+              class="text-white fs-6 top_bar_1_link ">About</a></li>
+          <li class="mt-2 border_right_white px-2"><a href="contact.html"
+              class="text-white fs-6 top_bar_1_link ">Contact</a></li>
 
-        <li class="mt-2 border_right_white px-2"><a href="Memberslogin.html" class="text-white fs-6 top_bar_1_link ">Login</a></li>
-        <li class="mt-2  px-2"><a href="" class="text-white fs-6 top_bar_1_link ">Verification</a></li>
+          <li class="mt-2 border_right_white px-2"><a href="Memberslogin.html"
+              class="text-white fs-6 top_bar_1_link ">Login</a></li>
+          <li class="mt-2  px-2"><a href="" class="text-white fs-6 top_bar_1_link ">Verification</a></li>
 
-      </ul>
+        </ul>
+      </div>
+      <div class="col-lg-6 d-flex flex-row justify-content-end">
+        <ul class="list-unstyled">
+          <li class="top_bar_1_link"><i class="fa fa-envelope text-white px-2"></i><a href="mailto:consortium@imrtc.org"
+              class="text-white">consortium@imrtc.org</a></li>
+
+        </ul>
+      </div>
     </div>
-    <div class="col-lg-6 d-flex flex-row justify-content-end">
-      <ul class="list-unstyled">
-        <li class="top_bar_1_link"><i class="fa fa-envelope text-white px-2"></i><a href="mailto:consortium@imrtc.org"
-            class="text-white">consortium@imrtc.org</a></li>
+    <!-- ============= TOP BAR 1 END =================== -->
 
-      </ul>
+    <!-- ============= TOP BAR 2 START =================== -->
+    <div class="container-fluid bg m-0 px-4 py-3 d-flex flex-lg-row flex-column">
+      <a href="index.html"
+        class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
+        <img src="assets/img/logo/logo.jpg" class="img-fluid " alt>
+        <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
+          Management Research <br>and Technology Consortium - USA
+        </h5>
+      </a>
+
+      <div class="col-4 d-flex flex-row align-items-center justify-content-end  ">
+
+        <ul class="list-unstyled d-flex text-white align-items-center justify-content-between col-4">
+          <li class="bg-white p-2 col-org rounded-1 rounded-1">
+            <a target="_blank" rel="noopener" href="#" class="col-org"><i class="fab fa-facebook fa-1x"
+                aria-hidden="true"></i></a>
+          </li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+
+      </div>
     </div>
-  </div>
-  <!-- ============= TOP BAR 1 END =================== -->
+    <!--  TOP BAR 2 END    -->
+    <!--  NAVBAR START  -->
+    <div class="container-fluid   d-flex flex-lg-row flex-column align-items-center top_2 " id="navbar">
 
-  <!-- ============= TOP BAR 2 START =================== -->
-  <div class="container-fluid bg m-0 px-4 py-3 d-flex flex-lg-row flex-column">
-    <a href="index.html"
-      class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
-      <img src="assets/img/logo/logo.jpg" class="img-fluid " alt>
-      <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
-        Management Research <br>and Technology Consortium - USA
-      </h5>
-    </a>
+      <nav class="navbar navbar-expand-lg  bg-body-tertiary  py-3">
+        <div class="container-fluid  position-relative">
 
-    <div class="col-4 d-flex flex-row align-items-center justify-content-end  ">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto d-flex justify-content-between">
 
-      <ul class="list-unstyled d-flex text-white align-items-center justify-content-between col-4">
-        <li class="bg-white p-2 col-org rounded-1 rounded-1">
-          <a target="_blank" rel="noopener" href="#" class="col-org"><i class="fab fa-facebook fa-1x"
-              aria-hidden="true"></i></a>
-        </li>
-        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-              class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
-        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-              class="fab fa-instagram" aria-hidden="true"></i></a></li>
-        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-              class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-      </ul>
+              <!--   =================      Certificationss nav-link start  -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Certifications
+                </a>
+                <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
+                  <h4 class="px-1 py-3 fw-bold fs-3"><i
+                      class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications
+                  </h4>
+                  <div class="container-fluid d-flex flex-row justify-content-between m-0 p-0 mx-auto">
+
+                    <!--  Management Certifications  -->
+                    <div class="px-2  border_right ">
+
+                      <h6 class="  text-start  fw-bold   ">Management Certifications</h5>
+                        <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
+                          Certified Human Resource
+                          Management <br> Professional</a>
+                        <a class="dropdown-item"
+                          href="camp-certified-administrative-management-professional.html">Certified Administrative
+                          Management <br> Professional</a>
+
+                        <a class="dropdown-item"
+                          href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
+                          Human Resource <br> Management</a>
+
+                    </div>
+                    <!--  Six Sigma Lean Certifications  -->
+                    <div class="px-2  border_right ">
+                      <h6 class="  text-start  fw-bold   ">Six Sigma Lean Certifications </h5>
+
+
+                        <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
+                          Six Sigma black <br>Belt</a>
+                        <a class="dropdown-item" href="certified-lean-six-sigma-green-belt-clssgb.html">Certified lean
+                          Six Sigma Green <br>Belt</a>
+                        <a class="dropdown-item" href="certified-lean-six-sigma-yellow-belt-clssyb.html">Certified lean
+                          Six Sigma Yellow<br>Belt
+                          Belt</a>
+
+
+
+                    </div>
+                    <!--  Cyber & Technology Certifications Certificationss  -->
+                    <div class=" px-2  m-0 border_right ">
+                      <h6 class="  text-start  fw-bold  border_under">Cyber & Technology Certifications</h6>
+
+                      <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
+                        Cyber Security Management <br>Professional</a>
+                      <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
+                        Technology Management <br>Professional</a>
+
+                    </div>
+                    <!--  Cyber & Technology Certifications Certificationss -->
+
+                    <div class="px-2 ">
+
+                      <h6 class="  text-start  fw-bold   ">Internal Audit</h5>
+
+                        <a class="dropdown-item" href="diploma-in-internal-audit.html">Profesional Diploma In Internal
+                          <br> Audit</a>
+
+
+                    </div>
+                  </div>
+                </ul>
+
+
+              </li>
+
+              <!--   =================      Certificationss nav-link end  -->
+              <!--   =================      Chapters nav-link start  -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Chapters
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Chapters-Partnerships.html">Authorized
+                      Chapters</a></li>
+                  <li><a class="dropdown-item" href="Apply-For-Chapters.html">Apply For
+                      Chapters</a></li>
+                  <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
+                      Portal</a></li>
+                  <li><a class="dropdown-item" href="Chapter-President-Profile.html">Chapters
+                      President Profile</a></li>
+
+                </ul>
+              </li>
+              <!--   =================      Chapters nav-link end  -->
+              <!--   =================        Partners nav-link start  -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Partners
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Partner-Under-Chapters.html">Partners
+                      From Chapters</a></li>
+                  <li><a class="dropdown-item" href="Partner-Subscription.html">Apply
+                      For Partnerships</a></li>
+                  <li><a class="dropdown-item" href="PartnerPortal.html">Partner Portal
+                    </a></li>
+                </ul>
+              </li>
+              <!--   =================        Partners nav-link end  -->
+
+              <!--   =================      Memberships nav-link start  -->
+
+              <li class="nav-item dropdown position-relative">
+                <a class="nav-link dropdown-toggle" href role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Membership
+                </a>
+                <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
+
+                  <h4 class="px-1 py-3 fw-bold fs-3 ">
+                    <i class="fas fa-id-card bg text-white p-1 rounded-3"></i>
+                    Membership
+                  </h4>
+                  <div class="container d-flex flex-row  m-0 p-0">
+
+                    <!--  JOIN IMRTC START -->
+                    <div class="px-3  border_right me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h5>
+                        <li><a class="dropdown-item" href="IndApp_RTStudent.html">Student Membership [FREE]</a></li>
+                        <li><a class="dropdown-item" href="IndApp_RTProf.html">Researchers Membership [FREE]</a></li>
+                        <li><a class="dropdown-item" href="IndApp_RTIndustryPartner.html">Industry Partner Membership
+                            [Free]</a>
+                        </li>
+                        <li><a class="dropdown-item" href="IndApp_RTStudent.html">Trainer Membership [Free]</a></li>
+                        <li><a class="dropdown-item" href="IndApp_ProfessionalMemberships.html">Professional
+                            Membership</a></li>
+
+
+
+                    </div>
+                    <!--  JOIN IMRTC END -->
+
+                    <!--  BENEFIT OF MEMBERSHIP START  -->
+                    <div class="px-3  border_right me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">IMRTC Membership</h5>
+
+
+                        <a class="dropdown-item mb-3" href="membership.html ">IMRTC Membership</a>
+
+                        <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Login</h5>
+
+
+                          <a class="dropdown-item" href="Memberslogin.html">Membershiop login</a>
+
+
+                    </div>
+                    <!--  BENEFIT OF MEMBERSHIP END  -->
+
+                    <!--  BECOME AN Accredited Trainer START  -->
+                    <div class="px-3   me-2">
+                      <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredited Trainer</h5>
+
+
+                        <a class="dropdown-item" href="became_a_accredited_trainer.html">Apply For Accredited Trainer
+                        </a>
+                        <h6 class="  text-start ps-lg-1 fw-bold pt-4  ">Associate Membership</h5>
+
+                          <a class="dropdown-item" href="IndApp_Association.html">
+                            Association Membership
+                          </a>
+
+                    </div>
+                    <!--  BECOME AN Accredited Trainer END  -->
+                  </div>
+                </ul>
+              </li>
+
+              <!--   =================      Memberships nav-link end  -->
+
+              <!--   =================       Journal nav-link start  -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Journal & Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="services.html">Major
+                      Services</a></li>
+                  <li><a class="dropdown-item" href="wwra.html">Worldwide Research
+                      Activities</a></li>
+                  <li><a class="dropdown-item" href="TrainingDevelopment.html">Management
+                      & Technology Training &
+                      <br>Certificationss </a></li>
+                  <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
+                      Paper Review, Evaluation &
+                      Appraisals</a></li>
+                  <li><a class="dropdown-item" href="Certifications.html">Curriculum
+                      Endorsements & Certificationss</a></li>
+
+                  <li><a class="dropdown-item" href="Publication.html">Publications
+                      Journal & Magazines </a></li>
+
+                </ul>
+              </li>
+              <!--   =================       Journal nav-link start  -->
+
+
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Members List
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ARRPTL.html">Advisors,
+                      Researchers,<br> Referees, Professors,
+                      Trainers</a>
+                  </li>
+                  <li><a class="dropdown-item" href="Member_Ass_TM.html">Members -
+                      Technology <br> Management</a></li>
+                  <li><a class="dropdown-item" href="Member_Ass_AM.html">Members -
+                      Administrative <br> Management</a></li>
+                  <li><a class="dropdown-item" href="Member_PT.html">Members -
+                      Professional <br> Trainer</a></li>
+                  <li><a class="dropdown-item" href="Member_IP.html">Members - Gloabal
+                      Industry <br> Partners</a></li>
+                  <li><a class="dropdown-item" href="Member_Students.html">Members -
+                      Student</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Training_Events.html">Training Events</a></li>
+                  <li><a class="dropdown-item" href="Webinars.html">Webinars</a></li>
+                  <li><a class="dropdown-item" href="Conference.html">Conference </a></li>
+
+
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class=" input-group bg-transparent d-lg-flex d-none justify-content-end flex-row">
+        <input type="text" class="col-5  selc bg-transparent" aria-label="Search" placeholder="Search">
+        <i class="input-group-text bg-transparent border-0 text-white">
+          <i class="fa fa-search dr" aria-hidden="true"></i>
+        </i>
+      </div>
+      <button class="btn_offcanvas d-lg-none d-lg-flex navbar-toggler " type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
 
     </div>
-  </div>
-  <!--  TOP BAR 2 END    -->
-  <!--  NAVBAR START  -->
-  <div class="container-fluid   d-flex flex-lg-row flex-column align-items-center top_2 " id="navbar">
+    <!--   ================= NAVBAR END  -->
 
-    <nav class="navbar navbar-expand-lg  bg-body-tertiary  py-3">
-      <div class="container-fluid  position-relative">
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <!--   ================= MOBILE NAVBAR START    -->
+    <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">
+          <img src="assets/img/logo/logo-new.png" class="img-fluid" alt>
+        </h5>
+        <button type="button" class="btn-close text-reset float-end" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mt-5">
           <ul class="navbar-nav  mx-auto d-flex justify-content-between">
 
             <!--   =================      Certificationss nav-link start  -->
@@ -95,30 +378,30 @@
                 aria-expanded="false">
                 Certifications
               </a>
-              <ul class="dropdown-menu dropdown-large  px-3 py-4   ">
+              <ul class="dropdown-menu   px-3 py-4   ">
                 <h4 class="px-1 py-3 fw-bold fs-3"><i
                     class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
-                <div class="container-fluid d-flex flex-row justify-content-between m-0 p-0 mx-auto">
+                <div class="container-fluid  flex-column justify-content-around m-0 p-0">
 
-                  <!--  Management Certifications  -->
-                  <div class="px-2  border_right ">
-                    
-                    <h6 class="  text-start  fw-bold   ">Management Certifications</h5>
-                      <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
-                        Certified Human Resource
-                        Management <br> Professional</a>
-                      <a class="dropdown-item"
-                        href="camp-certified-administrative-management-professional.html">Certified Administrative
-                        Management <br> Professional</a>
-
-                      <a class="dropdown-item"
-                        href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
-                        Human Resource <br> Management</a>
+                  <!--  Cybron Associate Certificationss  -->
+                  <div class="col-10 py-2 col-md-6  me-2">
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h6>
+                    <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
+                      Certified Human Resource
+                      Management <br> Professional</a>
+                    <a class="dropdown-item" href="camp-certified-administrative-management-professional.html">Certified
+                      Administrative
+                      Management <br> Professional</a>
+                    <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
+                      Technology Management <br> Professional</a>
+                    <a class="dropdown-item"
+                      href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
+                      Human Resource <br> Management</a>
 
                   </div>
-                  <!--  Six Sigma Lean Certifications  -->
-                  <div class="px-2  border_right ">
-                    <h6 class="  text-start  fw-bold   ">Six Sigma Lean Certifications </h5>
+                  <!--  Cybron Security Professional  -->
+                  <div class="col-10  py-2  col-md-6  me-2">
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
 
 
                       <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
@@ -132,21 +415,21 @@
 
 
                   </div>
-                  <!--  Cyber & Technology Certifications Certificationss  -->
-                  <div class=" px-2  m-0 border_right ">
-                    <h6 class="  text-start  fw-bold  border_under">Cyber & Technology Certifications</h6>
+                  <!--  Cybron Scout Certificationss  -->
+                  <div class="col-10   py-2  col-md-6 m-0  me-2">
+                    <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
 
                     <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
                       Cyber Security Management <br>Professional</a>
-                    <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
+                    <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
                       Technology Management <br>Professional</a>
 
                   </div>
-                  <!--  Cyber & Technology Certifications Certificationss -->
+                  <!--  Cybron Network  -->
 
-                  <div class="px-2 ">
+                  <div class="col-10  py-2  col-md-6">
 
-                    <h6 class="  text-start  fw-bold   ">Internal Audit</h5>
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Internal Audit</h5>
 
                       <a class="dropdown-item" href="diploma-in-internal-audit.html">Profesional Diploma In Internal
                         <br> Audit</a>
@@ -174,7 +457,7 @@
                     Chapters</a></li>
                 <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
                     Portal</a></li>
-                <li><a class="dropdown-item" href="Chapter-President-Profile.html">Chapters
+                <li><a class="dropdown-item" href="ChapterPresidentProfile.html">Chapters
                     President Profile</a></li>
 
               </ul>
@@ -188,7 +471,7 @@
                 Partners
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Partner-Under-Chapters.html">Partners
+                <li><a class="dropdown-item" href="PartnerUnderChapters.html">Partners
                     From Chapters</a></li>
                 <li><a class="dropdown-item" href="Partner-Subscription.html">Apply
                     For Partnerships</a></li>
@@ -205,22 +488,17 @@
                 Membership
               </a>
               <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
-               
-                  <h4 class="px-1 py-3 fw-bold fs-3 ">
-                    <i
-                    class="fas fa-id-card bg text-white p-1 rounded-3"></i>
-                    Membership</h4>
-                <div class="container d-flex flex-row  m-0 p-0">
+                <h4 class="px-1 py-3 fw-bold fs-3 ">Membership</h4>
+                <div class="container d-flex flex-column  m-0 p-0">
 
                   <!--  JOIN IMRTC START -->
-                  <div class="px-3  border_right me-2">
+                  <div class="col-lg-4 col-md-6  me-2">
                     <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h5>
-                      <li><a class="dropdown-item" href="IndApp_RTStudent.html">Student Membership [FREE]</a></li>
-                      <li><a class="dropdown-item" href="IndApp_RTProf.html">Researchers Membership [FREE]</a></li>
-                      <li><a class="dropdown-item" href="IndApp_RTIndustryPartner.html">Industry Partner Membership [Free]</a>
+                      <li><a class="dropdown-item" href="Membership.html">Student Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="Memberslogin.html">Researchers Membership [FREE]</a></li>
+                      <li><a class="dropdown-item" href="IndApp_Association.html">Industry Partner Membership [Free]</a>
                       </li>
                       <li><a class="dropdown-item" href="IndApp_RTStudent.html">Trainer Membership [Free]</a></li>
-                      <li><a class="dropdown-item" href="IndApp_ProfessionalMemberships.html">Professional Membership</a></li>
 
 
 
@@ -228,32 +506,27 @@
                   <!--  JOIN IMRTC END -->
 
                   <!--  BENEFIT OF MEMBERSHIP START  -->
-                  <div class="px-3  border_right me-2">
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">IMRTC Membership</h5>
+                  <div class="col-lg-4 col-md-6  me-2">
+                    <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Benefit</h5>
 
 
-                      <a class="dropdown-item mb-3"  href="membership.html ">IMRTC Membership</a>
-
-                    <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Login</h5>
-
-
-                      <a class="dropdown-item" href="Memberslogin.html">Membershiop login</a>
+                      <a class="dropdown-item" href="Memberslogin.html">Benefit of IMRTC Membership</a>
 
 
                   </div>
                   <!--  BENEFIT OF MEMBERSHIP END  -->
 
                   <!--  BECOME AN Accredited Trainer START  -->
-                  <div class="px-3   me-2">
+                  <div class="col-lg-4 col-md-6  me-2">
                     <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredited Trainer</h5>
 
 
-                      <a class="dropdown-item" href="became_a_accredited_trainer.html">Apply For Accredited Trainer
+                      <a class="dropdown-item" href="Memberslogin.html">Apply For Accredited Trainer
                       </a>
                       <h6 class="  text-start ps-lg-1 fw-bold pt-4  ">Associate Membership</h5>
 
-                        <a class="dropdown-item" href="IndApp_Association.html">
-                          Association Membership
+                        <a class="dropdown-item"
+                          href="cahrm-certified-associate-in-human-resource-management.html">Technology Management
                         </a>
 
                   </div>
@@ -284,7 +557,7 @@
                     Appraisals</a></li>
                 <li><a class="dropdown-item" href="Certifications.html">Curriculum
                     Endorsements & Certificationss</a></li>
-             
+
                 <li><a class="dropdown-item" href="Publication.html">Publications
                     Journal & Magazines </a></li>
 
@@ -318,294 +591,28 @@
 
               </ul>
             </li>
-     
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Events
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Training_Events.html">Training Events</a></li>
-                <li><a class="dropdown-item" href="Webinars.html">Webinars</a></li>
-                <li><a class="dropdown-item" href="Conference.html">Conference </a></li>
-         
-
-              </ul>
+            <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="event.html">Events</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
             </li>
           </ul>
-
         </div>
       </div>
-    </nav>
-    <div class=" input-group bg-transparent d-lg-flex d-none justify-content-end flex-row">
-      <input type="text" class="col-5  selc bg-transparent" aria-label="Search" placeholder="Search">
-      <i class="input-group-text bg-transparent border-0 text-white">
-        <i class="fa fa-search dr" aria-hidden="true"></i>
-      </i>
     </div>
-    <button class="btn_offcanvas d-lg-none d-lg-flex navbar-toggler " type="button" data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+    <!--   ================= MOBILE NAVBAR END    -->
 
-  </div>
-  <!--   ================= NAVBAR END  -->
+    <!-- =TOP TO SCROLL BUTTON START  -->
+    <a href="#" class="top_to_scrol_btn">
+      <i class="fa-solid fa-arrow-down"></i>
 
-  <!--   ================= MOBILE NAVBAR START    -->
-  <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
-      <h5 id="offcanvasRightLabel">
-        <img src="assets/img/logo/logo-new.png" class="img-fluid" alt>
-      </h5>
-      <button type="button" class="btn-close text-reset float-end" data-bs-dismiss="offcanvas"
-        aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="mt-5">
-        <ul class="navbar-nav  mx-auto d-flex justify-content-between">
+    </a>
+    <!-- =TOP TO SCROLL BUTTON END = -->
 
-          <!--   =================      Certificationss nav-link start  -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Certifications
-            </a>
-            <ul class="dropdown-menu   px-3 py-4   ">
-              <h4 class="px-1 py-3 fw-bold fs-3"><i
-                  class="fa-solid fa-graduation-cap bg text-white p-1 rounded-3"></i> Professional Certifications</h4>
-              <div class="container-fluid  flex-column justify-content-around m-0 p-0">
-
-                <!--  Cybron Associate Certificationss  -->
-                <div class="col-10 py-2 col-md-6  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Management Certifications</h6>
-                    <a class="dropdown-item" href="chrmp-certified-human-resource-management-professional.html">
-                      Certified Human Resource
-                      Management <br> Professional</a>
-                    <a class="dropdown-item"
-                      href="camp-certified-administrative-management-professional.html">Certified Administrative
-                      Management <br> Professional</a>
-                    <a class="dropdown-item" href="ctmp-certified-technology-management-professional.html">Certified
-                      Technology Management <br> Professional</a>
-                    <a class="dropdown-item"
-                      href="cahrm-certified-associate-in-human-resource-management.html">Certified Associate in
-                      Human Resource <br> Management</a>
-
-                </div>
-                <!--  Cybron Security Professional  -->
-                <div class="col-10  py-2  col-md-6  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Six Sigma Lean Certifications </h5>
-
-
-                    <a class="dropdown-item" href="certified-lean-six-sigma-black-belt-clssbb.html">Certified lean
-                      Six Sigma black <br>Belt</a>
-                    <a class="dropdown-item" href="certified-lean-six-sigma-green-belt-clssgb.html">Certified lean
-                      Six Sigma Green <br>Belt</a>
-                    <a class="dropdown-item" href="certified-lean-six-sigma-yellow-belt-clssyb.html">Certified lean
-                      Six Sigma Yellow<br>Belt
-                      Belt</a>
-
-
-
-                </div>
-                <!--  Cybron Scout Certificationss  -->
-                <div class="col-10   py-2  col-md-6 m-0  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold  border_under">Cyber & Technology Certifications</h6>
-
-                  <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
-                    Cyber Security Management <br>Professional</a>
-                  <a class="dropdown-item" href="certified-cyber-security-management-professional.html">Certified
-                    Technology Management <br>Professional</a>
-
-                </div>
-                <!--  Cybron Network  -->
-
-                <div class="col-10  py-2  col-md-6">
-
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Internal Audit</h5>
-
-                    <a class="dropdown-item" href="diploma-in-internal-audit.html">Profesional Diploma In Internal
-                      <br> Audit</a>
-
-
-                </div>
-              </div>
-            </ul>
-
-
-          </li>
-
-          <!--   =================      Certificationss nav-link end  -->
-          <!--   =================      Chapters nav-link start  -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Chapters
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Chapters-Partnerships.html">Authorized
-                  Chapters</a></li>
-              <li><a class="dropdown-item" href="Apply-For-Chapters.html">Apply For
-                  Chapters</a></li>
-              <li><a class="dropdown-item" href="Chapters-Portal.html">Chapters
-                  Portal</a></li>
-              <li><a class="dropdown-item" href="ChapterPresidentProfile.html">Chapters
-                  President Profile</a></li>
-
-            </ul>
-          </li>
-          <!--   =================      Chapters nav-link end  -->
-          <!--   =================        Partners nav-link start  -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Partners
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="PartnerUnderChapters.html">Partners
-                  From Chapters</a></li>
-              <li><a class="dropdown-item" href="Partner-Subscription.html">Apply
-                  For Partnerships</a></li>
-              <li><a class="dropdown-item" href="PartnerPortal.html">Partner Portal
-                </a></li>
-            </ul>
-          </li>
-          <!--   =================        Partners nav-link end  -->
-
-          <!--   =================      Memberships nav-link start  -->
-
-          <li class="nav-item dropdown position-relative">
-            <a class="nav-link dropdown-toggle" href role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Membership
-            </a>
-            <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
-              <h4 class="px-1 py-3 fw-bold fs-3 ">Membership</h4>
-              <div class="container d-flex flex-column  m-0 p-0">
-
-                <!--  JOIN IMRTC START -->
-                <div class="col-lg-4 col-md-6  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold  fw-bolder  col-8 ">Join IMRTC</h5>
-                    <li><a class="dropdown-item" href="Membership.html">Student Membership [FREE]</a></li>
-                    <li><a class="dropdown-item" href="Memberslogin.html">Researchers Membership [FREE]</a></li>
-                    <li><a class="dropdown-item" href="IndApp_Association.html">Industry Partner Membership [Free]</a>
-                    </li>
-                    <li><a class="dropdown-item" href="IndApp_RTStudent.html">Trainer Membership [Free]</a></li>
-
-
-
-                </div>
-                <!--  JOIN IMRTC END -->
-
-                <!--  BENEFIT OF MEMBERSHIP START  -->
-                <div class="col-lg-4 col-md-6  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Membership Benefit</h5>
-
-
-                    <a class="dropdown-item" href="Memberslogin.html">Benefit of IMRTC Membership</a>
-
-
-                </div>
-                <!--  BENEFIT OF MEMBERSHIP END  -->
-
-                <!--  BECOME AN Accredited Trainer START  -->
-                <div class="col-lg-4 col-md-6  me-2">
-                  <h6 class="  text-start ps-lg-1 fw-bold   ">Become an Accredited Trainer</h5>
-
-
-                    <a class="dropdown-item" href="Memberslogin.html">Apply For Accredited Trainer
-                    </a>
-                    <h6 class="  text-start ps-lg-1 fw-bold pt-4  ">Associate Membership</h5>
-
-                      <a class="dropdown-item" href="cahrm-certified-associate-in-human-resource-management.html">Technology Management
-                      </a>
-
-                </div>
-                <!--  BECOME AN Accredited Trainer END  -->
-              </div>
-            </ul>
-          </li>
-
-          <!--   =================      Memberships nav-link end  -->
-
-          <!--   =================       Journal nav-link start  -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Journal & Service
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="services.html">Major
-                  Services</a></li>
-              <li><a class="dropdown-item" href="wwra.html">Worldwide Research
-                  Activities</a></li>
-              <li><a class="dropdown-item" href="TrainingDevelopment.html">Management
-                  & Technology Training &
-                  <br>Certificationss </a></li>
-              <li><a class="dropdown-item" href="Research-Paper-Review.html">Research
-                  Paper Review, Evaluation &
-                  Appraisals</a></li>
-              <li><a class="dropdown-item" href="Certifications.html">Curriculum
-                  Endorsements & Certificationss</a></li>
-           
-              <li><a class="dropdown-item" href="Publication.html">Publications
-                  Journal & Magazines </a></li>
-
-            </ul>
-          </li>
-          <!--   =================       Journal nav-link start  -->
-
-
-
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href=".html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Members List
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="ARRPTL.html">Advisors,
-                  Researchers,<br> Referees, Professors,
-                  Trainers</a>
-              </li>
-              <li><a class="dropdown-item" href="Member_Ass_TM.html">Members -
-                  Technology <br> Management</a></li>
-              <li><a class="dropdown-item" href="Member_Ass_AM.html">Members -
-                  Administrative <br> Management</a></li>
-              <li><a class="dropdown-item" href="Member_PT.html">Members -
-                  Professional <br> Trainer</a></li>
-              <li><a class="dropdown-item" href="Member_IP.html">Members - Gloabal
-                  Industry <br> Partners</a></li>
-              <li><a class="dropdown-item" href="Member_Students.html">Members -
-                  Student</a></li>
-
-            </ul>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link " aria-current="page" href="event.html">Events</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!--   ================= MOBILE NAVBAR END    -->
-
-  <!-- =TOP TO SCROLL BUTTON START  -->
-  <a href="#" class="top_to_scrol_btn">
-    <i class="fa-solid fa-arrow-down"></i>
-
-  </a>
-  <!-- =TOP TO SCROLL BUTTON END = -->
-
-</header>
-<!--   ================= HEADER END   =================  -->
-      <!-- ======================  MAIN 1 START   ====================== -->
+  </header>
+  <!--   ================= HEADER END   =================  -->
+  <!-- ======================  MAIN 1 START   ====================== -->
   <main class="m-0 p-0">
     <!-- ====================== HERO SECTION START ====================== -->
     <div class="hero_section   d-flex flex-column align-items-center justify-content-center position-relative ">
@@ -673,7 +680,7 @@
   <main>
     <div class="container-fluid  d-flex flex-lg-row flex-column my-5">
       <!-- ====================== DIV 1 START ====================== -->
-           <div class=" col-lg-3 col-sm-12 col-md-3 col-12 d-flex flex-row  bg ">
+      <div class=" col-lg-3 col-sm-12 col-md-3 col-12 d-flex flex-row  bg ">
         <div class="col-12 my-3 position_sticky  ">
 
           <!-- ====================== =================== TOPIC DIV START =================== ====================== -->
@@ -681,7 +688,7 @@
             class="content-box bg-white  mx-auto col-11 my-2  pt-2 d-flex flex-column simple-list-example-scrollspy "
             data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="10">
             <h5 class="col-11 mx-auto text-center bg-white col-org p-2 rounded-2">Table of Contents</h5>
-                <ul class="list-unstyled knowledge_area_dropdown col-11 mx-auto">
+            <ul class="list-unstyled knowledge_area_dropdown col-11 mx-auto">
               <li><a class="nav-link " href="#simple-list-item-0">ABOUT</a></li>
               <li><a class="nav-link" href="#simple-list-item-1">THE AUDIENCE</a></li>
 
@@ -699,10 +706,11 @@
             <div class="col-11">
               <div class="input-group">
                 <button class="btn1 p-2 px-5 fs-6 col-12">Download PDIA Brochure
-                  <a href="assets/course_docs/cahrm-certified-associate-in-human-resource-management.docx" download  class="btn1-span d-flex flex-row align-items-center justify-content-center">
-                  <i class="fa-solid fa-paper-plane "></i>
+                  <a href="assets/course_docs/cahrm-certified-associate-in-human-resource-management.docx" download
+                    class="btn1-span d-flex flex-row align-items-center justify-content-center">
+                    <i class="fa-solid fa-paper-plane "></i>
                   </a>
-                  </button>
+                </button>
 
               </div>
             </div>
@@ -779,7 +787,7 @@
         data-bs-target="#simple-list-example" data-bs-smooth-scroll="true" tabindex="0">
         <div class="col-lg-11 col-12 ps-lg-4  text_justify_all">
           <!-- ============================== HEADING======= ====================== -->
-          <h2 class="display-6  fw-normal text-start lh-1"> Profesional Diploma in Internal Audit  </h2>
+          <h2 class="display-6  fw-normal text-start lh-1"> Profesional Diploma in Internal Audit </h2>
           <!-- ============================== HEADING======= ====================== -->
 
           <p class="py-3">There is a global need for market and requires competent Six Sigma Certified Yellow Belt
@@ -787,18 +795,18 @@
             Re-Engineering at entry level. As a recognized institute, we offer a comprehensive training curriculum in
             this belt. IMRTC after recognizing the need and in consultation with senior members, executives, and
             trainers has come up with a comprehensive Certifications program - <span class="font-bold"> THE Certified
-              Profesional Diploma in Internal Audit  (PDIA) </span> </p>
+              Profesional Diploma in Internal Audit (PDIA) </span> </p>
 
 
           <!-- ============================== About============================= ====================== -->
           <div class=" section_single_cert">
             <h2 class="col-org mar_top">About PDIA </h2>
 
-            <p class="py-3">Profesional Diploma in Internal Audit  - PDIA is required to develop the
+            <p class="py-3">Profesional Diploma in Internal Audit - PDIA is required to develop the
               necessary expertise and
               skills for Quality Management Systems, Production, Operations, and Services People. The ultimate goal of
               this Certifications is that management can increase their productivity by reducing cost through effective
-              lean processes with efficiency and effectiveness. Profesional Diploma in Internal Audit  - PDIA
+              lean processes with efficiency and effectiveness. Profesional Diploma in Internal Audit - PDIA
               covers the areas of
               Quality Cycle, Lean Management, Qualitative and Quantitative Assessment of Processes, and strategic
               approaches to operational Management of businesses through information technology ERP, and CRM systems.
@@ -836,11 +844,14 @@
           <!-- ==============================Audience Start======= ====================== -->
           <div class="" id="simple-list-item-1">
             <h2 class="col-org mar_top">Audience</h2>
-            <p class="pt-3">Anyone belongs from Quality, Production, Manufacturing and/or Service Industry, can avail this excellent professional qualifications. It is most suitable for Managers, executive assistants and supervisor in any sector, who are involved directly or indirectly with it.    </p>
+            <p class="pt-3">Anyone belongs from Quality, Production, Manufacturing and/or Service Industry, can avail
+              this excellent professional qualifications. It is most suitable for Managers, executive assistants and
+              supervisor in any sector, who are involved directly or indirectly with it. </p>
 
             <span class="fw-normal col-org fs-5 ">Who should join?</span><br>
             <ul class="list-unstyled d-flex flex-column">
-              <li><i class="fas fa-check-circle bg-transparent col-org"></i> Aspiring Lean Six Sigma Professionals: Those who want
+              <li><i class="fas fa-check-circle bg-transparent col-org"></i> Aspiring Lean Six Sigma Professionals:
+                Those who want
                 to enter the Lean Six Sigma industry and develop essential skills.</li>
               <li><i class="fas fa-check-circle bg-transparent col-org"></i> Assistant Managers Team Leads:
                 Professionals looking to strengthen their leadership and people management </li>
@@ -854,26 +865,29 @@
 
 
             <p class="pt-3">
-              <i class="fas fa-user-tie bg p-2 text-white rounded-circle fs-6"></i> Comprehensive understanding of Lean Six Sigma
+              <i class="fas fa-user-tie bg p-2 text-white rounded-circle fs-6"></i> Comprehensive understanding of Lean
+              Six Sigma
               functions <br>
               <i class="fas fa-chart-line bg p-2 text-white rounded-circle fs-6 my-1"></i> Knowledge of workforce
               planning & recruitment <br>
               <i class="fas fa-briefcase bg p-2 text-white rounded-circle fs-6 my-1"></i> Skills in performance
               management & employee engagement <br>
-              <i class="fas fa-cogs bg p-2 text-white rounded-circle fs-6 my-1"></i> Strategic Lean Six Sigma tools including Lean Six Sigma
+              <i class="fas fa-cogs bg p-2 text-white rounded-circle fs-6 my-1"></i> Strategic Lean Six Sigma tools
+              including Lean Six Sigma
               analytics & automation <br>
               <i class="fas fa-network-wired bg p-2 text-white rounded-circle fs-6 my-1"></i> Networking opportunities
               with Lean Six Sigma industry experts <br>
             </p>
           </div>
           <!-- ============================== Audience End======= ====================== -->
-    <!-- ========================== Eligibility Requirements============ ====================== -->
+          <!-- ========================== Eligibility Requirements============ ====================== -->
 
           <div id="simple-list-item-12">
             <h2 class="col-org">PDIA Eligibility Requirements</h2>
 
             <p class="py-3">
-              To be eligible for the Profesional Diploma in Internal Audit  for any level, the candidates must have a 2-years Education or equivalent with no experience. The candidate should have to submit the credentials.
+              To be eligible for the Profesional Diploma in Internal Audit for any level, the candidates must have a
+              2-years Education or equivalent with no experience. The candidate should have to submit the credentials.
             </p>
 
             <table class="table ">
@@ -922,20 +936,22 @@
                 href="mailto:registration@imrtc.org">registration@imrtc.org</a>.</p>
 
             <h2 class="col-org mar_top pt-5">IMRTC Examination System</h2>
-            <h6 class="py-2">Profesional Diploma in Internal Audit  </h6>
+            <h6 class="py-2">Profesional Diploma in Internal Audit </h6>
 
             <h4 class="col-org mar_top ">Partner Institute Internal Examination System</h4>
             <p class="py-3">The concerned partner/institute/trainer will take examinations online and submit to the
               International Management Research and Technology Consortium Examination Department.</p>
 
             <h4 class="col-org mar_top">IMRTC Online Exam System</h4>
-            <p class="py-3">IMRTC will provide access to all partners to schedule the exams of the particular courses of any individual candidates. Therefore, according to the availability, the partner institutes will schedule the exam of individual candidates’ subjects or courses/certifications.</p>
+            <p class="py-3">IMRTC will provide access to all partners to schedule the exams of the particular courses of
+              any individual candidates. Therefore, according to the availability, the partner institutes will schedule
+              the exam of individual candidates’ subjects or courses/certifications.</p>
           </div>
           <!-- ============================Registration and Payment Process========================== ====================== -->
           <!-- ============================================================ ====================== -->
           <div id="simple-list-item-14">
             <h2 class="col-org mar_top py-2">Fess Structure</h2>
-            <h6 class="py-1 ">Profesional Diploma in Internal Audit  </h6>
+            <h6 class="py-1 ">Profesional Diploma in Internal Audit </h6>
 
             <table class="table my-3">
               <thead>
@@ -966,19 +982,33 @@
           <!-- ===============================Process Of Certifications======= ====================== -->
           <div id="simple-list-item-15" class="py-4">
             <h2 class="col-org mar_top ">Process Of Certifications</h2>
-            <p class="py-3">To get the certification, 48-professional training hours as PTH is mandatory from any concerned professional trainer or Partner, and participants should have to submit their training PTH with the Examination Application Form with the attachments of required qualifications and other experience certificates/letters. The Paper is based on 100 Questions with MCQs and 70% passing marks is required to pass the exam. Further, if the Project is also included in your exam, marks will be distributed according to course & certification. </p>
+            <p class="py-3">To get the certification, 48-professional training hours as PTH is mandatory from any
+              concerned professional trainer or Partner, and participants should have to submit their training PTH with
+              the Examination Application Form with the attachments of required qualifications and other experience
+              certificates/letters. The Paper is based on 100 Questions with MCQs and 70% passing marks is required to
+              pass the exam. Further, if the Project is also included in your exam, marks will be distributed according
+              to course & certification. </p>
 
             <h5><strong>TERMS & CONDITIONS </strong></h5>
             <ul class="list-unstyled">
               <li class="py-1"> • The 48-Training-hours as PTH are valid up to one year.</li>
-              <li class="py-1"> • If the candidate is failed in the examination then S/he has one more chance to attempt the paper within a year, and if the candidate cannot pass, then they have to pay the examination fee and re-appear in the examination.</li>
-              <li class="py-1"> • If the candidate has not passed the examination within one year and after some time S/he would like to appear in the examination, then the candidate must resubmit 36 Professional-Training-hours as PTH again required to appear in the examination.</li>
-              <li class="py-1"> • The examination system is online, and the candidate can book the exam anytime according to his or her availability.</li>
-              <li class="py-1"> • Those countries, who do not have the facility of online examination, can give the paper-based examination, which can be sent to authorized partners/trainers/examiners. The assessment time will be a month, and we will send the results to the concerned partner.</li>
-              <li class="py-1"> • The candidate will get the certificate within one month, and the administration will send it to the concerned partners.</li>
-              <li class="py-1"> • To maintain the worth and eligibility in the market, the candidate must renew their membership on a yearly basis.</li>
+              <li class="py-1"> • If the candidate is failed in the examination then S/he has one more chance to attempt
+                the paper within a year, and if the candidate cannot pass, then they have to pay the examination fee and
+                re-appear in the examination.</li>
+              <li class="py-1"> • If the candidate has not passed the examination within one year and after some time
+                S/he would like to appear in the examination, then the candidate must resubmit 36
+                Professional-Training-hours as PTH again required to appear in the examination.</li>
+              <li class="py-1"> • The examination system is online, and the candidate can book the exam anytime
+                according to his or her availability.</li>
+              <li class="py-1"> • Those countries, who do not have the facility of online examination, can give the
+                paper-based examination, which can be sent to authorized partners/trainers/examiners. The assessment
+                time will be a month, and we will send the results to the concerned partner.</li>
+              <li class="py-1"> • The candidate will get the certificate within one month, and the administration will
+                send it to the concerned partners.</li>
+              <li class="py-1"> • To maintain the worth and eligibility in the market, the candidate must renew their
+                membership on a yearly basis.</li>
             </ul>
-            
+
           </div>
           <!-- ============================ Process Of Certifications================================ ====================== -->
           <div id="simple-list-item-16">
@@ -1052,9 +1082,11 @@
               and Technology Consortium (IMRTC USA)</li>
           </ul>
 
- <div class="my-3 col-lg-3 col-6 ms-auto d-flex flex-row justify-content-end align-items-center apply_now_btn ">
+          <div
+            class="my-3 col-lg-3 col-6 ms-auto d-flex flex-row justify-content-end align-items-center apply_now_btn ">
             <button class="btn1 p-2 col-12 px-5 fs-6 border border-bottom ms-auto ">Apply Now
-              <a href="IndApp_ProfessionalMemberships" class="btn1-span d-flex flex-row align-items-center justify-content-center">
+              <a href="IndApp_ProfessionalMemberships"
+                class="btn1-span d-flex flex-row align-items-center justify-content-center">
                 <i class="fa-solid fa-paper-plane "></i>
               </a>
             </button>
@@ -1078,9 +1110,9 @@
   <!-- ====================== EXTERNEL FILE JS   ====================== -->
   <script src="js/app.js"></script>
   <!-- ====================== EXTERNEL FILE JS   ====================== -->
-<!-- jQuery & DataTables JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <!-- jQuery & DataTables JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 </body>
 
 </html>

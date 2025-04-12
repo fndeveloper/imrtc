@@ -58,7 +58,7 @@ $(document).ready(function () {
   
   // Initialize DataTable
   var table = $('#myTable').DataTable({
-    "paging": true,      // Enable pagination
+    "paging": false,      // Enable pagination
     "pageLength": 5,     // Show 5 rows per page
     "searching": true,   // Enable search
     // "info": true,        // Show table info

@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     navbar.classList.add("fixed-nav");
 
                   } else {
-                    btnOffcanvas.classList.remove("opacity-1");
+                    navbar.classList.remove("fixed-nav");
                     btnOffcanvas.classList.add("opacity-0");
-                     navbar.classList.remove("fixed-nav");
+                    // btnOffcanvas.classList.remove("opacity-1");
                 }
             });
         }

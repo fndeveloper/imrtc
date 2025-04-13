@@ -161,8 +161,8 @@ display: none;
   }
 .dropdown-menu{
   position: sticky !important;
-  margin-top: -10%  !important;
-  margin-bottom:10% !important;
+  margin-top: -15%  !important;
+  margin-bottom:15% !important;
   padding: 10px !important;
   height: max-content !important;
   background-color: white !important;

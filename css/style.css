@@ -53,11 +53,7 @@ body{
     #simple-list-item-8 {
       text-align: start !important;
       }  
-      .dropdown-menu {
-        position: static !important;
-        width: 100%;
-        box-shadow: none;
-    }
+
 }  
 .bnt{
   font-family: var(--font-family-Nunito);
@@ -164,19 +160,15 @@ display: none;
     font-size: 14px !important;
   }
 .dropdown-menu{
-  /* top: 0% !important;  */
-  /* position: absolute !important; */
-  margin: 0px;
-  padding: 0px;
-  z-index: 1222211 !important;
-  height: max-content;
-  position: relative !important;
-  top: 0% !important;
+  position: sticky !important;
+  margin-top: -10%  !important;
+  margin-bottom:10% !important;
+  padding: 10px !important;
+  height: max-content !important;
+  background-color: white !important;
   transition: 0.5s ease-in-out !important;
-  /* border: none !important; */
-  background-color: rgb(255, 255, 255) !important;
-  /* box-shadow: none !important; */
-}
+  z-index: 999121 !important;
+ }
 }
 
 .scrollspy-example p{
@@ -319,10 +311,10 @@ padding: 0px;
   border: none !important;
   outline: none !important;
   position:absolute !important;
-  right:5% !important;
+  /* right:5% !important; */
   color: var(--accent-color);
-  
-  top: 25% !important;
+  width: 100%;
+  /* top: 25% !important; */
 }
 .nav-item >.nav-link {
   font-size: 16px;
@@ -366,6 +358,13 @@ height:100%  !important;
   /* backdrop-filter: blur(40px); */
   left:  -20px !important;
   position: absolute;
+}
+@media (max-width:992px) {
+.fixed-nav{
+height: 50px;
+
+}
+  
 }
 .fixed-nav{
   position: fixed;

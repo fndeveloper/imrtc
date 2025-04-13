@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             clearInterval(navbarInterval); // Stop checking once navbar is found
 
             var top_to_scrol_btn = document.querySelectorAll(".top_to_scrol_btn");
-
+            const btnOffcanvas = document.querySelector(".btn_offcanvas");
             window.addEventListener("scroll", () => {
                 top_to_scrol_btn.forEach((e) => {
                     var a = document.body.scrollHeight - window.innerHeight;
@@ -21,9 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
 
                 if (window.scrollY > 300) {
+                  btnOffcanvas.classList.add("opacity-1");
+                  btnOffcanvas.classList.remove("opacity-0");      
                     navbar.classList.add("fixed-nav");
-                } else {
-                    navbar.classList.remove("fixed-nav");
+
+                  } else {
+                    btnOffcanvas.classList.remove("opacity-1");
+                    btnOffcanvas.classList.add("opacity-0");
+                     navbar.classList.remove("fixed-nav");
                 }
             });
         }

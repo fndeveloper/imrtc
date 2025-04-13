@@ -1,41 +1,49 @@
-// NAVBAR IS FIXED AFTER SCROLL IS GREATER THAN 800
 document.addEventListener("DOMContentLoaded", function () {
-    // Wait until the navbar is loaded
-    let navbarInterval = setInterval(() => {
-        let navbar = document.getElementById("navbar");
-        if (navbar) {
-            clearInterval(navbarInterval); // Stop checking once navbar is found
+  // Check for navbar until it exists
+  let navbarInterval = setInterval(() => {
+      const navbar = document.getElementById("navbar");
 
-            var top_to_scrol_btn = document.querySelectorAll(".top_to_scrol_btn");
-            const btnOffcanvas = document.querySelector(".btn_offcanvas");
-            window.addEventListener("scroll", () => {
-                top_to_scrol_btn.forEach((e) => {
-                    var a = document.body.scrollHeight - window.innerHeight;
-                    var scrollProgress = (window.scrollY / a) * 99;
+      if (navbar) {
+          clearInterval(navbarInterval); // Stop checking once navbar is found
 
-                    if (scrollProgress > 97) {
-                        e.innerHTML = `<i class="fa-solid fa-arrow-up"></i>`;
-                    } else {
-                        e.innerHTML = scrollProgress.toFixed(0);
-                    }
-                });
+          const btnOffcanvas = document.querySelector(".btn_offcanvas");
+          const top_to_scrol_btn = document.querySelectorAll(".top_to_scrol_btn");
 
-                if (window.scrollY > 300) {
-                  btnOffcanvas.classList.add("opacity-1");
-                  btnOffcanvas.classList.remove("opacity-0");      
-                    navbar.classList.add("fixed-nav");
+          // Function to handle scroll effects
+          function handleScroll() {
+              // --- Scroll Progress Button ---
+              top_to_scrol_btn.forEach((e) => {
+                  const maxScroll = document.body.scrollHeight - window.innerHeight;
+                  const scrollProgress = (window.scrollY / maxScroll) * 99;
 
+                  if (scrollProgress > 97) {
+                      e.innerHTML = `<i class="fa-solid fa-arrow-up"></i>`;
                   } else {
-                    navbar.classList.remove("fixed-nav");
-                    btnOffcanvas.classList.add("opacity-0");
-                    // btnOffcanvas.classList.remove("opacity-1");
-                }
-            });
-        }
-    }, 100); // Check every 100ms
+                      e.innerHTML = scrollProgress.toFixed(0);
+                  }
+              });
+
+              // --- Fixed Navbar and Offcanvas Button Opacity ---
+              if (window.scrollY > 300) {
+                  btnOffcanvas.classList.add("opacity-1");
+                  btnOffcanvas.classList.remove("opacity-0");
+                  navbar.classList.add("fixed-nav");
+              } else {
+                  btnOffcanvas.classList.remove("opacity-1");
+                  btnOffcanvas.classList.add("opacity-0");
+                  navbar.classList.remove("fixed-nav");
+              }
+          }
+
+          // Scroll event
+          window.addEventListener("scroll", handleScroll);
+
+          // Also check scroll position on page load
+          handleScroll();
+      }
+  }, 100); // Check every 100ms until navbar is found
 });
 
-// NAVBAR IS FIXED AFTER SCROLL IS GREATER THAN 800
 
 // FOOTER COPY RIGHT YEAR CODE IS HERE
 var year=document.querySelectorAll(".year")

@@ -27,33 +27,32 @@
     <!-- ============= TOP BAR 1 END =================== -->
 
     <!-- ============= TOP BAR 2 START =================== -->
-    <div class="container-fluid bg m-0 px-4 py-3 d-flex flex-lg-row flex-column">
-      <a href="index.html"
-        class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
-        <img src="assets/img/logo/logo.jpg" class="img-fluid " alt>
-        <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
-          Management Research <br>and Technology Consortium - USA
-        </h5>
-      </a>
+  <div class="container-fluid bg m-0 px-4 py-3 d-flex flex-lg-row flex-column">
+    <a href="default.asp"
+      class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
+      <img src="../assets/img/logo/logo.jpg" class="img-fluid " alt>
+      <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
+        Management Research <br>and Technology Consortium - USA
+      </h5>
+    </a>
+    <div class="col-lg-3 col-12 d-flex flex-row align-items-center justify-content-lg-end justify-content-center ">
 
-      <div class="col-lg-3 col-12 d-flex flex-row align-items-center justify-content-lg-end justify-content-center ">
+      <ul class="list-unstyled d-flex flex-row text-white align-items-center justify-content-around  col-lg-6 col-8 ">
+        <li class="bg-white p-2 col-org rounded-1 rounded-1">
+          <a target="_blank" rel="noopener" href="#" class="col-org"><i class="fab fa-facebook fa-1x"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+              class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
+        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+              class="fab fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+              class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+      </ul>
 
-        <ul class="list-unstyled d-flex flex-row text-white align-items-center justify-content-around  col-lg-6 col-8 ">
-          <li class="bg-white p-2 col-org rounded-1 rounded-1">
-            <a target="_blank" rel="noopener" href="#" class="col-org"><i class="fab fa-facebook fa-1x"
-                aria-hidden="true"></i></a>
-          </li>
-          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-                class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
-          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-                class="fab fa-instagram" aria-hidden="true"></i></a></li>
-          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
-                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-        </ul>
-
-      </div>
     </div>
-    <!--  TOP BAR 2 END    -->
+  </div>
+  <!-- ================= TOP BAR 2 END  =================  -->
     <!--  NAVBAR START  -->
     <div class="container-fluid   d-flex flex-lg-row flex-column align-items-center top_2 " id="navbar">
 

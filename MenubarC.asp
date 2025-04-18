@@ -1,27 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-  <!-- =================  Required meta tags  ================= -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- =================  TITLE ================= -->
-  <title>MenubarC International Management Research And Technology Consortium -
-    USA</title>
-
-  <!-- =================  FAVICON ================= -->
-  <link rel="shortcut icon" href="assets/img/logo/logo.jpg" type="image/x-icon">
-  <!-- =================   BOOTSTRAP CSS ================= -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- =================   EXTERNEL FILE CSS ================= -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- =================   FONT AWESOME CDN ================= -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
 <!-- ================= HEADER START =================== -->
 <header class="header m-0 p-0  d-flex flex-column">
   <!-- ============= TOP BAR 1 START =================== -->
@@ -612,17 +589,3 @@
 
 </header>
 <!--   ================= HEADER END   =================  -->
-
-
-  <!--   ================= FOOTER END  ================= -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!--=================  SWIPER CDN ================= -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-  <!-- ================= EXTERNEL FILE JS  =================-->
-  <script src="js/app.js"></script>
-  <!--=================  EXTERNEL FILE JS  =================-->
-
-</body>
-
-</html>

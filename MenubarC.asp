@@ -55,7 +55,7 @@
 
             <li class="nav-item dropdown">
               <a class="dropdown-item  d-flex justify-content-between align-items-center dropdown-toggle nav-link"
-                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Certifications
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4  dropdown-large  px-3 py-4   ">
@@ -127,7 +127,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Chapters
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4 ">
@@ -144,7 +144,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Partners
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4 ">
@@ -162,7 +162,7 @@
 
             <li class="nav-item dropdown position-relative">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Membership
               </a>
               <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
@@ -229,7 +229,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Journal & Service
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4 ">
@@ -257,7 +257,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Members List
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4 ">
@@ -281,7 +281,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                 Events
               </a>
               <ul class="dropdown-menu dropdown-large  px-3 py-4 ">
@@ -343,7 +343,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Certifications
             </a>
             <ul class="dropdown-menu   px-3 py-4   ">
@@ -415,7 +415,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Chapters
             </a>
             <ul class="dropdown-menu">
@@ -435,7 +435,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Partners
             </a>
             <ul class="dropdown-menu">
@@ -453,7 +453,7 @@
 
           <li class="nav-item dropdown position-relative">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Membership
             </a>
             <ul class="dropdown-menu  dropdown-large position-absolute   px-3 py-4   ">
@@ -510,7 +510,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Journal & Service
             </a>
             <ul class="dropdown-menu">
@@ -539,7 +539,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href=".asp"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
               Members List
             </a>
             <ul class="dropdown-menu">

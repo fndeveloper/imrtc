@@ -161,8 +161,7 @@ display: none;
   }
 .dropdown-menu{
   position: sticky !important;
-  margin-top: -15%  !important;
-  margin-bottom:15% !important;
+  margin-top: 0%  !important;
   padding: 10px !important;
   height: max-content !important;
   background-color: white !important;
@@ -263,6 +262,10 @@ transition: 0.4s ease-in-out !important;
   bottom: 4%;
   position: absolute;
  }
+ .nav-link {
+  white-space: nowrap;
+  word-break: keep-all;
+}
  .bottom_div_hero>div>div{
   color: white;
   border-left: 1px solid rgba(255, 255, 255, 0.13) !important;

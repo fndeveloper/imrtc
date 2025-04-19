@@ -62,7 +62,7 @@
               <!--   =================      PartnersPortallogin.asp  nav-link start  =================-->
 
               <li class="nav-item ">
-                <a class="nav-link " aria-current="page" href="PartnersPortallogin.asp">Partner-Home</a>
+                <a class="nav-link " aria-current="page" data-bs-display="static" href="PartnersPortallogin.asp">Partner-Home</a>
               </li>
 
               <!--   =================      PartnersPortallogin.asp  nav-link end =================  -->
@@ -70,7 +70,7 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between"
-                  href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static" data-bs-display="static">
+                  href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-display="static">
                   Courses
                 </a>
                 <ul class="dropdown-menu">
@@ -116,7 +116,7 @@
              <!--   =================      Verification  nav-link start ================= -->
 
              <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="Verification.asp">Verification</a>
+              <a class="nav-link " aria-current="page" data-bs-display="static" href="Verification.asp">Verification</a>
             </li>
 
             <!--   =================      Verification  nav-link end ================= -->
@@ -183,7 +183,7 @@
             <!--   =================      PartnersPortallogin.asp  nav-link start  =================-->
 
             <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="PartnersPortallogin.asp">Partner-Home</a>
+              <a class="nav-link " aria-current="page" data-bs-display="static" href="PartnersPortallogin.asp">Partner-Home</a>
             </li>
 
             <!--   =================      PartnersPortallogin.asp  nav-link end =================  -->
@@ -237,7 +237,7 @@
            <!--   =================      Verification  nav-link start ================= -->
 
            <li class="nav-item ">
-            <a class="nav-link " aria-current="page" href="Verification.asp">Verification</a>
+            <a class="nav-link " aria-current="page" data-bs-display="static" href="Verification.asp">Verification</a>
           </li>
 
           <!--   =================      Verification  nav-link end ================= -->

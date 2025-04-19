@@ -62,7 +62,7 @@
 
 <!-- =========== HOME START =================== -->
             <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="blog.asp">Home</a>
+              <a class="nav-link " aria-current="page" href="../default.asp">Home</a>
             </li>
 <!-- =========== HOME START =================== -->
 
@@ -112,7 +112,7 @@
 
           <!-- =========== HOME START =================== -->
                       <li class="nav-item ">
-                        <a class="nav-link " aria-current="page" href="blog.asp">Home</a>
+                        <a class="nav-link " aria-current="page" href="../default.asp">Home</a>
                       </li>
           <!-- =========== HOME START =================== -->
           
@@ -131,6 +131,3 @@
 
 </header>
 <!--   ================= HEADER END   =================  -->
-
-
- 

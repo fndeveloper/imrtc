@@ -1,82 +1,267 @@
-  <div class=""> 
-    <div id="mgmenu1" class="mgmenu_container clearfix "> 
-      <ul class="mgmenu clearfix" id="nav1">
-        <!-- Begin Mega Menu -->
-        <li class="mgmenu_button"> 
-          <div class="mgm_button_text"> <i class="icomoon-grid"></i>Main Navigation 
-          </div>
-        </li>
-        <!-- Button (Mobile Devices) -->
-        <!-- Home -->
-        <li><span><a href="MemberPortalLogin.asp">Members Home </a></span></li>
-        <!-- Features -->
-        <li><span><a href="#">Research & Development <i class="icomoon-arrow-down-2"></i></a></span> 
-          <!-- Begin Item -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 dropdown_container"> 
-            <!-- Begin Item Container -->
-            <ul class="dropdown_flyout">
-              <li><a href="FindResearchTopic.asp.">Find Research Topics  </a></li>
-			  <li><a href="#">Download Paper Template</a></li>
-              <li><a href="#">Submit Research Papers</a></li>
-            </ul>
-          </div>
-          <!-- End Item Container -->
-        </li>
-        <!-- End Item -->
-        <!-- Features -->
-        <!-- Pages -->
-        <li><span><a  href="#">Articles <i class="icomoon-arrow-down-2"></i> </a></span>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 dropdown_container"> 
-            <!-- Begin Item Container -->
-            <ul class="dropdown_flyout">
-              <li><a href="#">Find Research Articles</a></li>
-              <li><a href="#">Submit Your Articles</a></li>
-            </ul>
-          </div>
-          <!-- End Item Container -->
-		</li>
-        <!-- End Item -->
 
-        <!-- Pages -->
+  <!-- ================= HEADER START =================== -->
+  <header class="header m-0 p-0  d-flex flex-column">
+    <!-- ============= TOP BAR 1 START =================== -->
+    <div class="container-fluid bg1 d-flex flex-lg-row flex-column align-items-center px-4 py-2">
+      <div class="col-lg-6 d-flex flex-row align-items-center">
+        <ul class="list-unstyled  d-flex flex-row justify-content-between">
+          <li class="mt-2  border_right_white px-2"><a href="about.asp"
+              class="text-white fs-6 top_bar_1_link ">About</a></li>
+          <li class="mt-2 border_right_white px-2"><a href="contact.asp"
+              class="text-white fs-6 top_bar_1_link ">Contact</a></li>
 
-        <li><span><a  href="#">Industries  <i class="icomoon-arrow-down-2"> </i></a></span>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 dropdown_container"> 
-		  <!-- Begin Item Container -->
-            <ul class="dropdown_flyout">
-              <li><a href="#">Enter Your Issues and Problems</a></li>
-         	  <li><a href="#">List of Industry Issues</a></li>
-           </ul>
-          </div>
-         <!-- End Item Container -->
-		</li>
-       
-	    <li><span><a href="#">Available Research Advisors <i class="icomoon-arrow-down-2"></i></a></span> 
-          <!-- Begin Item -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 dropdown_container"> 
-            <!-- Begin Item Container -->
-            <ul class="dropdown_flyout">
-              <li><a href="#">List of Research Advisors</a></li>
-			  <li><a href="#">Forum of Topics </a></li>
-            </ul>
-          </div>
-          <!-- End Item Container -->
+          <li class="mt-2 border_right_white px-2"><a href="Memberslogin.asp"
+              class="text-white fs-6 top_bar_1_link ">Login</a></li>
+          <li class="mt-2  px-2"><a href="" class="text-white fs-6 top_bar_1_link ">Verification</a></li>
 
-	    <li><span><a href="#">Students Category<i class="icomoon-arrow-down-2"></i></a></span> 
-          <!-- Begin Item -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 dropdown_container"> 
-            <!-- Begin Item Container -->
-            <ul class="dropdown_flyout">
-              <li><a href="#">List of Students</a></li>
-            </ul>
-          </div>
-          <!-- End Item Container -->
+        </ul>
+      </div>
+      <div class="col-lg-6 d-flex flex-row justify-content-end">
+        <ul class="list-unstyled">
+          <li class="top_bar_1_link"><i class="fa fa-envelope text-white px-2"></i><a href="mailto:consortium@imrtc.org"
+              class="text-white">consortium@imrtc.org</a></li>
 
-
-	   
-	    <!-- End Item -->
-        <!-- Blog -->
-        <!-- Works -->
-        <!-- End -->
-      </ul>
+        </ul>
+      </div>
     </div>
-  </div>
+    <!-- ============= TOP BAR 1 END =================== -->
+
+    <!-- ============= TOP BAR 2 START =================== -->
+    <div class="container-fluid bg m-0 px-4 py-3 d-flex flex-lg-row flex-column">
+      <a href="default.asp"
+        class="logo text-decoration-none d-flex flex-lg-row flex-column align-items-center me-auto col-lg-6 col-12">
+        <img src="../assets/img/logo/logo.jpg" class="img-fluid " alt>
+        <h5 class=" fs-5  text-white fw-light text_of_imrtc ps-lg-2">International
+          Management Research <br>and Technology Consortium - USA
+        </h5>
+      </a>
+      <div class="col-lg-3 col-12 d-flex flex-row align-items-center justify-content-lg-end justify-content-center ">
+
+        <ul class="list-unstyled d-flex flex-row text-white align-items-center justify-content-around  col-lg-6 col-8 ">
+          <li class="bg-white p-2 col-org rounded-1 rounded-1">
+            <a target="_blank" rel="noopener" href="#" class="col-org"><i class="fab fa-facebook fa-1x"
+                aria-hidden="true"></i></a>
+          </li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="bg-white p-2 col-org rounded-1"><a target="_blank" rel="noopener" href="#" class="col-org"><i
+                class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- ================= TOP BAR 2 END  =================  -->
+    <!-- ================= NAVBAR START  =================-->
+    <div class="container-fluid   d-flex flex-lg-row flex-column align-items-center top_2 " id="navbar">
+
+      <nav class="navbar lg_navbar navbar-expand-lg  bg-body-tertiary  py-3">
+
+        <div class="container-fluid  position-relative">
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto d-flex justify-content-between">
+
+              <!-- ================= Members Home nav-link start ================= -->
+              <li class="nav-item">
+                <a class="nav-link" href="MemberPortalLogin.asp">Members Home</a>
+              </li>
+              <!-- ================= Members Home nav-link end ================= -->
+
+              <!-- ================= Research & Development nav-link start ================= -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                  Research & Development
+                </a>
+                <ul class="dropdown-menu dropdown-large px-3 py-4">
+                  <li><a class="dropdown-item" href="FindResearchTopic.asp.">Find Research Topics</a></li>
+                  <li><a class="dropdown-item" href="#">Download Paper Template</a></li>
+                  <li><a class="dropdown-item" href="#">Submit Research Papers</a></li>
+                </ul>
+              </li>
+              <!-- ================= Research & Development nav-link end ================= -->
+
+              <!-- ================= Articles nav-link start ================= -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                  Articles
+                </a>
+                <ul class="dropdown-menu dropdown-large px-3 py-4">
+                  <li><a class="dropdown-item" href="#">Find Research Articles</a></li>
+                  <li><a class="dropdown-item" href="#">Submit Your Articles</a></li>
+                </ul>
+              </li>
+              <!-- ================= Articles nav-link end ================= -->
+
+              <!-- ================= Industries nav-link start ================= -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                  Industries
+                </a>
+                <ul class="dropdown-menu dropdown-large px-3 py-4">
+                  <li><a class="dropdown-item" href="#">Enter Your Issues and Problems</a></li>
+                  <li><a class="dropdown-item" href="#">List of Industry Issues</a></li>
+                </ul>
+              </li>
+              <!-- ================= Industries nav-link end ================= -->
+
+              <!-- ================= Available Research Advisors nav-link start ================= -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                  Available Research Advisors
+                </a>
+                <ul class="dropdown-menu dropdown-large px-3 py-4">
+                  <li><a class="dropdown-item" href="#">List of Research Advisors</a></li>
+                  <li><a class="dropdown-item" href="#">Forum of Topics</a></li>
+                </ul>
+              </li>
+              <!-- ================= Available Research Advisors nav-link end ================= -->
+
+              <!-- ================= Students Category nav-link start ================= -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                  Students Category
+                </a>
+                <ul class="dropdown-menu dropdown-large px-3 py-4">
+                  <li><a class="dropdown-item" href="#">List of Students</a></li>
+                </ul>
+              </li>
+              <!-- ================= Students Category nav-link end ================= -->
+
+            </ul>
+
+          </div>
+        </div>
+
+      </nav>
+      <div class=" input-group bg-transparent d-lg-flex d-none justify-content-end flex-row">
+        <input type="text" class="col-5  selc bg-transparent" aria-label="Search" placeholder="Search">
+        <i class="input-group-text bg-transparent border-0 text-white">
+          <i class="fa fa-search dr" aria-hidden="true"></i>
+        </i>
+      </div>
+      <!--======================= NAVBAR FIXED AFTER SCROLL CODE START ============================== -->
+
+      <div class="btn_offcanvas px-3 d-lg-none d-flex flex-row justify-content-between align-items-center">
+        <a href="index.html" class=" logo text-decoration-none d-flex flex-row align-items-center ">
+          <img src="assets/img/logo/logo.jpg" class="img-fluid col-1" alt>
+          <h5 class="fw-normal fs-6 ps-2  mt-2 text-dark">International
+            Management Research <br>and Technology Consortium - USA
+          </h5>
+        </a>
+
+        <!-- LOGO HERE -->
+        <button class="d-lg-none d-lg-flex navbar-toggler " type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <!--======================= NAVBAR FIXED AFTER SCROLL CODE END ============================== -->
+
+    </div>
+    <!--   ================= NAVBAR END  -->
+
+    <!--   ================= MOBILE NAVBAR START    -->
+    <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">
+          <img src="../assets/img/logo/logo-new.png" class="img-fluid" alt>
+        </h5>
+        <button type="button" class="btn-close text-reset float-end" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mt-5">
+          <ul class="navbar-nav  mx-auto d-flex justify-content-between">
+
+            <!-- ================= Members Home nav-link start ================= -->
+            <li class="nav-item">
+              <a class="nav-link" href="MemberPortalLogin.asp">Members Home</a>
+            </li>
+            <!-- ================= Members Home nav-link end ================= -->
+
+            <!-- ================= Research & Development nav-link start ================= -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                Research & Development
+              </a>
+              <ul class="dropdown-menu dropdown-large px-3 py-4">
+                <li><a class="dropdown-item" href="FindResearchTopic.asp.">Find Research Topics</a></li>
+                <li><a class="dropdown-item" href="#">Download Paper Template</a></li>
+                <li><a class="dropdown-item" href="#">Submit Research Papers</a></li>
+              </ul>
+            </li>
+            <!-- ================= Research & Development nav-link end ================= -->
+
+            <!-- ================= Articles nav-link start ================= -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                Articles
+              </a>
+              <ul class="dropdown-menu dropdown-large px-3 py-4">
+                <li><a class="dropdown-item" href="#">Find Research Articles</a></li>
+                <li><a class="dropdown-item" href="#">Submit Your Articles</a></li>
+              </ul>
+            </li>
+            <!-- ================= Articles nav-link end ================= -->
+
+            <!-- ================= Industries nav-link start ================= -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                Industries
+              </a>
+              <ul class="dropdown-menu dropdown-large px-3 py-4">
+                <li><a class="dropdown-item" href="#">Enter Your Issues and Problems</a></li>
+                <li><a class="dropdown-item" href="#">List of Industry Issues</a></li>
+              </ul>
+            </li>
+            <!-- ================= Industries nav-link end ================= -->
+
+            <!-- ================= Available Research Advisors nav-link start ================= -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                Available Research Advisors
+              </a>
+              <ul class="dropdown-menu dropdown-large px-3 py-4">
+                <li><a class="dropdown-item" href="#">List of Research Advisors</a></li>
+                <li><a class="dropdown-item" href="#">Forum of Topics</a></li>
+              </ul>
+            </li>
+            <!-- ================= Available Research Advisors nav-link end ================= -->
+
+            <!-- ================= Students Category nav-link start ================= -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex flex-row align-items-center justify-content-between" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                Students Category
+              </a>
+              <ul class="dropdown-menu dropdown-large px-3 py-4">
+                <li><a class="dropdown-item" href="#">List of Students</a></li>
+              </ul>
+            </li>
+            <!-- ================= Students Category nav-link end ================= -->
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--   ================= MOBILE NAVBAR END    -->
+
+    <!-- =TOP TO SCROLL BUTTON START  -->
+    <a href="#" class="top_to_scrol_btn">
+      <i class="fa-solid fa-arrow-down"></i>
+
+    </a>
+    <!-- =TOP TO SCROLL BUTTON END = -->
+
+  </header>
+  <!--   ================= HEADER END   =================  -->
